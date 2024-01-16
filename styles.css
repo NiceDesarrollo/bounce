@@ -1,0 +1,391 @@
+/**Fuentes*/
+@font-face {
+  font-family: "GothamBook";
+  src: url("./assets/Fonts/GothamBook.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("./assets/Fonts/GothamMedium_1.ttf") format("truetype");
+}
+
+/**Reestablecer valores por defecto del body*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "GothamMedium", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "GothamMedium", sans-serif !important;
+  color: #f4f4f4 !important;
+}
+p {
+  font-family: "GothamBook", sans-serif !important;
+  color: #e2dfdf !important;
+}
+/**Navegaciòn*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1f0fe9;
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/**Lista de opciones de navegaciòn*/
+.navbar-right {
+  font-size: 12.5px;
+}
+.navbar-right a {
+  text-decoration: none;
+  padding: 10px;
+  color: #bababa;
+  font-weight: 900;
+}
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+.navbar-logo {
+  margin-left: 15px;
+}
+/**Logo del menu de navegaciòn*/
+.navbar-logo img {
+  max-width: 100px; /** Ajusta este valor a la anchura máxima que desees para tu imagen */
+  height: auto; /** Esto mantendrá la relación de aspecto de la imagen */
+}
+
+/** Estilos del ícono de hamburguesa */
+.navbar-hamburger {
+  margin-right: 15px;
+  font-size: 24px; /** Ajusta este valor según tus preferencias */
+  display: none;
+  cursor: pointer;
+}
+/** Agregar un estilo para la "x" */
+#hamburger-icon.x {
+  font-size: 24px;
+}
+
+.hero-image-background {
+  background: url("./assets/Links/jugar-padel-k4TD--1248x698@abc.jpeg");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 80vh;
+}
+
+.center-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.center-icon img {
+  cursor: pointer;
+  max-width: 100px; /** Ajusta según tus necesidades */
+  max-height: 100px; /** Ajusta según tus necesidades */
+}
+
+/**Quienes somos*/
+.who-we-are-image-background {
+  background: linear-gradient(to right, #0f1f0f, transparent),
+    url("./assets/Links/Padel-4.webp");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 70vh;
+}
+
+/**Instalaciones*/
+.installations-image-background {
+  background: linear-gradient(to left, #0f1f0f, transparent),
+    url("./assets/Links/jugar-padel-k4TD--1248x698@abc.jpeg");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 70vh;
+}
+
+/**Carousel*/
+/**Cambiar iconos del carousel*/
+.carousel-control-prev-icon {
+  background-image: url("./assets/SVG/Asset\ 7.svg") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("./assets/SVG/Asset\ 8.svg") !important;
+}
+
+/**carousel movile*/
+.mobile.carousel-item.active {
+  position: relative;
+}
+.mobile.carousel-item.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #0f1f0f,
+    transparent
+  ); /** Puedes ajustar los colores según tus preferencias */
+  opacity: 0.7; /** Ajusta la opacidad según tus preferencias */
+}
+.mobile {
+  height: 60vh !important;
+}
+
+/**Servicios*/
+.services-image-background {
+  background: linear-gradient(to right, #0f1f0f, transparent),
+    url("./assets/Links/jugar-padel-k4TD--1248x698@abc.jpeg");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 70vh;
+}
+
+/**Tienda*/
+.shop-image-background {
+  background: linear-gradient(to left, #0f1f0f, transparent),
+    url("./assets/Links/Tienda.jpg");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 70vh;
+}
+
+/**Contacto*/
+.contact-image-background {
+  background: linear-gradient(to right, #0f1f0f, transparent),
+    url("./assets/Links/pala-padel.jpeg");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 70vh;
+}
+/**Formulario de contacto*/
+/**Input de color negro con border verde*/
+.black-input {
+  background-color: #0f1f0f !important; /** Fondo oscuro */
+  border: 2px solid #9fbd3b !important; /** Borde de color verde */
+  color: #ffffff !important; /** Color del texto, blanco en este caso */
+}
+.black-input:focus {
+  outline: none !important; /** Elimina el contorno predeterminado al hacer clic en el input */
+  box-shadow: 0 0 5px #28a745 !important; /** Agrega una sombra verde al hacer clic en el input */
+}
+/**Cambiar el boton a color verde*/
+.button-form {
+  background-color: #9fbd3b !important;
+  border: 2px solid #9fbd3b !important; /** Borde de color verde */
+}
+
+/**Ubicacion*/
+.ubication-image-background {
+  background: linear-gradient(to left, #0f1f0f, transparent),
+    url("./assets/Links/PADEL_SWEDISH_CHAMPIONSHIP-1920x1000.webp");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 75vh;
+}
+.ubication-col {
+  padding-right: 200px !important;
+}
+
+/**Estilos de los iconos de redes sociales*/
+.custom-link {
+  color: #9fbd3b; /** Color azul de enlace, puedes ajustar el color según tus preferencias */
+  text-decoration: none; /** Elimina el subrayado predeterminado de los enlaces */
+}
+.custom-link:hover {
+  color: #00b31b; /** Color azul más oscuro al pasar el ratón sobre el enlace */
+}
+
+/**Footer*/
+.footer-image {
+  max-width: 300px;
+  height: auto;
+}
+.navbar-footer {
+  float: right;
+  font-size: 12.5px;
+}
+.navbar-footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: #bababa;
+  font-family: Arial;
+  font-weight: 900;
+}
+.navbar-footer a:hover {
+  text-decoration: underline;
+}
+.icon-footer {
+  padding-right: 20px;
+}
+
+/**Estilos generales*/
+.padel-color {
+  color: #9fbd3b;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+/**Animación de pelota*/
+.tennis-ball {
+  animation: bounce 1s;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/**Estilos para dispositivos moviles*/
+@media only screen and (max-width: 600px) {
+  /** Navegacion */
+  .navigation {
+    padding: 10px;
+  }
+
+  .navbar-hamburger {
+    display: block;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-right.show-menu {
+    display: flex; /** Mostrar opciones de navegación cuando se abre el menú */
+    flex-direction: column; /** Alinear opciones de navegación en columna */
+    background-color: #0f1f0fe9; /** Fondo del menú en dispositivos móviles */
+    padding: 15px; /** Ajusta el espacio alrededor de las opciones en dispositivos móviles */
+    position: absolute;
+    top: 67px; /** Ajusta la posición vertical del menú en dispositivos móviles */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  /**Hero section*/
+  .hero-image-background {
+    height: 70vh;
+  }
+
+  /**Quienes somos*/
+  .who-we-are-section {
+    position: relative;
+    margin-top: 42%;
+  }
+  .who-we-are-image-background {
+    width: 100%;
+    height: 70vh;
+  }
+  .overlay-text {
+    max-width: 100%;
+    left: 5%;
+    right: 5%;
+  }
+
+  /**Instalaciones*/
+  .installations-image-background {
+    height: 60vh;
+  }
+
+  /**Servicios*/
+  .services-image-background {
+    height: 60vh;
+  }
+
+  /**Tienda*/
+  .shop-image-background {
+    height: 65vh;
+  }
+
+  /**Contacto*/
+  .contact-image-background {
+    height: 60vh;
+  }
+
+  /**Ubicacion*/
+  .ubication-image-background {
+    height: 76vh;
+  }
+  .ubication-col {
+    padding-right: 25px !important;
+  }
+
+  /**Footer*/
+  /** Centrar la imagen dentro del media query */
+  .footer-image-container {
+    text-align: center; /** Para centrado horizontal */
+    display: flex;
+    align-items: center; /** Para centrado vertical */
+  }
+  .footer-image {
+    max-width: 100%;
+  }
+}
+
+/**Estilos para dispositivos moviles*/
+@media only screen and (max-width: 375px) {
+  /**Quienes somos*/
+  .who-we-are-section {
+    position: relative;
+    margin-top: 41%;
+  }
+  .who-we-are-image-background {
+    width: 100%;
+    height: 85vh;
+  }
+  .overlay-text {
+    max-width: 100%;
+    left: 5%;
+    right: 5%;
+  }
+
+  /**Servicios*/
+  .services-image-background {
+    height: 70vh;
+  }
+
+  /**Tienda*/
+  .shop-image-background {
+    height: 75vh;
+  }
+
+  /**Contacto*/
+  .contact-image-background {
+    height: 75vh;
+  }
+
+  /**Ubicacion*/
+  .ubication-image-background {
+    height: 90vh;
+  }
+  .ubication-col {
+    padding-right: 20px !important;
+  }
+}
