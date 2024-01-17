@@ -29,6 +29,7 @@ p {
   font-family: "GothamBook", sans-serif !important;
   color: #e2dfdf !important;
 }
+
 /**Navegaciòn*/
 .navigation {
   display: flex;
@@ -77,10 +78,17 @@ p {
 }
 
 .hero-image-background {
-  background: url("./assets/Links/jugar-padel-k4TD--1248x698@abc.jpeg");
+  background: url("./assets/images/raquetaJuntoARedConPelota.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 80vh;
+}
+
+/** Estilo adicional para el contenedor del video */
+.hero-image-background1 video {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
 }
 
 .center-icon {
@@ -100,7 +108,7 @@ p {
 /**Quienes somos*/
 .who-we-are-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
-    url("./assets/Links/Padel-4.webp");
+    url("./assets/images/pelotaJuntoALinea.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
@@ -109,10 +117,16 @@ p {
 /**Instalaciones*/
 .installations-image-background {
   background: linear-gradient(to left, #0f1f0f, transparent),
-    url("./assets/Links/jugar-padel-k4TD--1248x698@abc.jpeg");
+    url("./assets/images/Instalaciones.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
+}
+
+.changingImage {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
 }
 
 /**Carousel*/
@@ -135,21 +149,22 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to right,
-    #0f1f0f,
-    transparent
-  ); /** Puedes ajustar los colores según tus preferencias */
+  /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+  background-color: #0f1f0fe7;
+  background-blend-mode: multiply;
   opacity: 0.7; /** Ajusta la opacidad según tus preferencias */
 }
 .mobile {
   height: 60vh !important;
 }
+.text-card-container{
+  padding-top: 30%;
+}
 
 /**Servicios*/
 .services-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
-    url("./assets/Links/jugar-padel-k4TD--1248x698@abc.jpeg");
+    url("./assets/images/raquetaConPelotaJuntoALineaConTeni.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
@@ -158,7 +173,7 @@ p {
 /**Tienda*/
 .shop-image-background {
   background: linear-gradient(to left, #0f1f0f, transparent),
-    url("./assets/Links/Tienda.jpg");
+    url("./assets/images/raquetaApuntandoPelotaAlPiso.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
@@ -167,7 +182,7 @@ p {
 /**Contacto*/
 .contact-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
-    url("./assets/Links/pala-padel.jpeg");
+    url("./assets/images/esperandoPelota.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
@@ -192,7 +207,7 @@ p {
 /**Ubicacion*/
 .ubication-image-background {
   background: linear-gradient(to left, #0f1f0f, transparent),
-    url("./assets/Links/PADEL_SWEDISH_CHAMPIONSHIP-1920x1000.webp");
+    url("./assets/images/pelotaEnRed.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 75vh;
@@ -301,7 +316,10 @@ p {
   }
   .who-we-are-image-background {
     width: 100%;
-    height: 70vh;
+    height: 85vh;
+    /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+    background-color: #0f1f0fa0;
+    background-blend-mode: multiply;
   }
   .overlay-text {
     max-width: 100%;
@@ -311,27 +329,39 @@ p {
 
   /**Instalaciones*/
   .installations-image-background {
-    height: 60vh;
+    height: 70vh;
   }
 
   /**Servicios*/
   .services-image-background {
     height: 60vh;
+    /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+    background-color: #0f1f0fa0;
+    background-blend-mode: multiply;
   }
 
   /**Tienda*/
   .shop-image-background {
     height: 65vh;
+    /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+    background-color: #0f1f0fa0;
+    background-blend-mode: multiply;
   }
 
   /**Contacto*/
   .contact-image-background {
     height: 60vh;
+    /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+    background-color: #0f1f0fa0;
+    background-blend-mode: multiply;
   }
 
   /**Ubicacion*/
   .ubication-image-background {
     height: 76vh;
+    /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+    background-color: #0f1f0fa0;
+    background-blend-mode: multiply;
   }
   .ubication-col {
     padding-right: 25px !important;
@@ -358,7 +388,7 @@ p {
   }
   .who-we-are-image-background {
     width: 100%;
-    height: 85vh;
+    height: 110vh;
   }
   .overlay-text {
     max-width: 100%;
@@ -366,14 +396,18 @@ p {
     right: 5%;
   }
 
+  .mobile {
+    height: 80vh !important;
+  }
+
   /**Servicios*/
   .services-image-background {
-    height: 70vh;
+    height: 75vh;
   }
 
   /**Tienda*/
   .shop-image-background {
-    height: 75vh;
+    height: 80vh;
   }
 
   /**Contacto*/

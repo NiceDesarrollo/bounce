@@ -20,13 +20,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Cambiar la fuente de la imagen en función de la diapositiva actual
     switch (slideIndex) {
       case 0:
-        imageElement.src = "./assets/Links/Padel-4.webp";
+        imageElement.src = "./assets/images/cafeteria.JPG";
         break;
       case 1:
-        imageElement.src = "./assets/Links/pala-padel.jpeg";
+        imageElement.src = "./assets/images/canchas.JPG";
         break;
       case 2:
-        imageElement.src = "./assets/Links/Tienda.jpg";
+        imageElement.src = "./assets/images/vestidores.JPG";
         break;
     }
   }
@@ -38,7 +38,7 @@ function toggleMenu() {
   var navbarRight = document.querySelector(".navbar-right");
   var hamburgerIcon = document.getElementById("hamburger-icon");
 
-  
+
 
   //Añade o elimina la clase dependiendo si esta o no asignada
   navbarRight.classList.toggle("show-menu");
