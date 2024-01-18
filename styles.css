@@ -157,7 +157,7 @@ p {
 .mobile {
   height: 60vh !important;
 }
-.text-card-container{
+.text-card-container {
   padding-top: 30%;
 }
 
@@ -260,6 +260,18 @@ p {
 /**Animación de pelota*/
 .tennis-ball {
   animation: bounce 1s;
+}
+
+/** Clase para ocultar visualmente el título pero funcional para lectores de pantalla */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 @keyframes bounce {
   0%,
