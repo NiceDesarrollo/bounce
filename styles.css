@@ -207,7 +207,7 @@ p {
 /**Ubicacion*/
 .ubication-image-background {
   background: linear-gradient(to left, #0f1f0f, transparent),
-    url("./assets/images/pelotaEnRed.JPG");
+    url("./assets/images/pelotaEnRed.jpg");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 75vh;
