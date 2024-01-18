@@ -108,7 +108,7 @@ p {
 /**Quienes somos*/
 .who-we-are-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
-    url("./assets/images/pelotaJuntoALinea.JPG");
+    url("./assets/images/.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
