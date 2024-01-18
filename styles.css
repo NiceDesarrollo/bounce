@@ -78,7 +78,7 @@ p {
 }
 
 .hero-image-background {
-  background: url("./assets/images/raquetaJuntoARedConPelota.JPG");
+  background: url("./assets/images/raquetaJuntoARedConPelota.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 80vh;
@@ -108,7 +108,7 @@ p {
 /**Quienes somos*/
 .who-we-are-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
-    url("./assets/images/quienesSomos.jpg");
+    url("./assets/images/quienesSomos.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 90vh;
@@ -117,7 +117,7 @@ p {
 /**Instalaciones*/
 .installations-image-background {
   background: linear-gradient(to left, #0f1f0f, transparent),
-    url("./assets/images/Instalaciones.JPG");
+    url("./assets/images/Instalaciones.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 90vh;
@@ -164,7 +164,7 @@ p {
 /**Servicios*/
 .services-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
-    url("./assets/images/raquetaConPelotaJuntoALineaConTeni.JPG");
+    url("./assets/images/raquetaConPelotaJuntoALineaConTeni.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
@@ -173,7 +173,7 @@ p {
 /**Tienda*/
 .shop-image-background {
   background: linear-gradient(to left, #0f1f0f, transparent),
-    url("./assets/images/raquetaApuntandoPelotaAlPiso.JPG");
+    url("./assets/images/raquetaApuntandoPelotaAlPiso.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
@@ -182,7 +182,7 @@ p {
 /**Contacto*/
 .contact-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
-    url("./assets/images/esperandoPelota.JPG");
+    url("./assets/images/esperandoPelota.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 70vh;
@@ -207,7 +207,7 @@ p {
 /**Ubicacion*/
 .ubication-image-background {
   background: linear-gradient(to left, #0f1f0f, transparent),
-    url("./assets/images/pelotaEnRed.jpg");
+    url("./assets/images/pelotaEnRed.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 85vh;
