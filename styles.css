@@ -111,7 +111,7 @@ p {
     url("./assets/images/quienesSomos.jpg");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 70vh;
+  height: 90vh;
 }
 
 /**Instalaciones*/
@@ -120,7 +120,7 @@ p {
     url("./assets/images/Instalaciones.JPG");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 70vh;
+  height: 90vh;
 }
 
 .changingImage {
@@ -210,7 +210,7 @@ p {
     url("./assets/images/pelotaEnRed.jpg");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 75vh;
+  height: 85vh;
 }
 .ubication-col {
   padding-right: 200px !important;
