@@ -300,8 +300,10 @@ p {
 }
 
 .image-carousel-galery.carousel-item img{
-  height: 70vh;
+  max-height: 60vh;
 }
+
+
 
 
 @keyframes bounce {
@@ -419,6 +421,11 @@ p {
   }
   .footer-image {
     max-width: 100%;
+  }
+
+  /**Galeria*/
+  .image-carousel-galery.carousel-item img{
+    height: 60vh;
   }
 }
 
