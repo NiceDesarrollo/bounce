@@ -299,6 +299,11 @@ p {
   opacity: 0.7; /** Ajusta la opacidad según tus preferencias */
 }
 
+.image-carousel-galery.carousel-item img{
+  height: 80vh;
+}
+
+
 @keyframes bounce {
   0%,
   20%,
