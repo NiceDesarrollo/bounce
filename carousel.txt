@@ -1,0 +1,78 @@
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/0.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/1.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/2.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/3.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/4.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/5.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/6.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/7.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/8.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/9.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/10.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/11.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/12.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/13.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/14.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/15.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/16.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/17.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/18.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/19.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/20.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/21.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/22.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/23.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/24.webp" alt="" />
+    </div>
+    <div class="image-carousel-galery carousel-item">
+      <img style="max-width: 100%; width: auto" class="d-block w-100" src="./assets/images/galery/25.webp" alt="" />
+    </div>
