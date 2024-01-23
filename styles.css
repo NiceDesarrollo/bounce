@@ -302,7 +302,6 @@ p {
   opacity: 0.7; /** Ajusta la opacidad según tus preferencias */
 }
 
-
 /* Grid css */
 .gallery {
   display: grid;
@@ -494,6 +493,19 @@ p {
   }
 }
 
+/* Ocultar en todas las pantallas por defecto */
+.text-desktop {
+  display: none !important;
+}
+
+/* Mostrar en pantallas medianas y más grandes */
+@media (min-width: 990px) {
+  .text-desktop {
+    display: block !important;
+  }
+}
+
+
 @keyframes bounce {
   0%,
   20%,
@@ -509,6 +521,30 @@ p {
     transform: translateY(-10px);
   }
 }
+
+.background-modal{
+  position: relative;
+}
+
+.close-button-modal{
+  font-size: 3vh;
+  position: absolute;
+  top: 14%;
+  right: 16%;
+  z-index: 99999999;
+}
+
+.carousel-control-prev-icon{
+  position: relative;
+  right: 15vh;
+}
+
+.carousel-control-next-icon{
+  position: relative;
+  left: 15vh;
+}
+
+
 
 /**Estilos para dispositivos moviles*/
 @media only screen and (max-width: 600px) {
@@ -617,7 +653,6 @@ p {
     object-fit: fill;
     height: 50vh;
   }
-
 }
 
 /**Estilos para dispositivos moviles*/

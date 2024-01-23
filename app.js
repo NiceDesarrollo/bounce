@@ -30,15 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
     }
   }
-
 });
 
 //*Navegación
 function toggleMenu() {
   var navbarRight = document.querySelector(".navbar-right");
   var hamburgerIcon = document.getElementById("hamburger-icon");
-
-
 
   //Añade o elimina la clase dependiendo si esta o no asignada
   navbarRight.classList.toggle("show-menu");
@@ -67,7 +64,6 @@ function toggleMenu() {
       hamburgerIcon.innerHTML = "&#9776;";
     });
   });
-
 }
 
 //*Anumación de pelota
@@ -79,3 +75,25 @@ function handleClickBall(element) {
     element.classList.remove("tennis-ball");
   }, 1000);
 }
+
+//*Animación del boton del modal de la galeria
+document.getElementById("prevIcon").addEventListener("click", function () {
+  // Cambiar la escala al hacer clic
+  this.style.transform = "scale(0.8)"; // Puedes ajustar el valor de escala según tus necesidades
+
+  // Restablecer la escala después de un breve período (500 milisegundos en este ejemplo)
+  setTimeout(function () {
+    document.getElementById("prevIcon").style.transform = "scale(1)";
+  }, 500);
+});
+
+//*Animación del boton del modal de la galeria
+document.getElementById("nextIcon").addEventListener("click", function () {
+  // Cambiar la escala al hacer clic
+  this.style.transform = "scale(0.8)"; // Puedes ajustar el valor de escala según tus necesidades
+
+  // Restablecer la escala después de un breve período (500 milisegundos en este ejemplo)
+  setTimeout(function () {
+    document.getElementById("nextIcon").style.transform = "scale(1)";
+  }, 500);
+});
