@@ -85,10 +85,12 @@ p {
 }
 
 /** Estilo adicional para el contenedor del video */
-.hero-image-background1 video {
+.hero-image-background-desktop video {
   width: 100%;
-  height: 80vh;
   object-fit: cover;
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 80vh;
 }
 
 .center-icon {

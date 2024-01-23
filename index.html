@@ -38,8 +38,9 @@
     <header>
       <!-- Título oculto para lectores de pantalla -->
       <h1 class="sr-only">Bounce Padel</h1>
-      <!-- hero -->
-      <div class="bg-image hero-image-background">
+
+      <!-- hero mobile -->
+      <div class="bg-image hero-image-background d-md-none">
         <!-- Navegación-->
         <nav class="navigation py-3">
           <a href="index.html" class="navbar-logo">
@@ -120,6 +121,50 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- hero desktop -->
+      <div
+        class="hero-image-background hero-image-background-desktop d-none d-md-block"
+      >
+        <!-- Navegación-->
+        <nav class="navigation py-3">
+          <a href="index.html" class="navbar-logo">
+            <img
+              src="./assets/Bounce_Blanco.png"
+              alt="Logo pounce padel"
+              loading="lazy"
+            />
+          </a>
+          <div class="navbar-hamburger" onclick="toggleMenu()">
+            <span style="color: white" id="hamburger-icon">&#9776;</span>
+          </div>
+          <div class="navbar-right text-center">
+            <a href="#whoWeAre">¿Quiénes somos?</a>
+
+            <!-- Enlace a carousel de instalaciones (Mobile) -->
+            <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
+
+            <!-- Enlace a carousel de instalaciones (PC) -->
+            <a href="#installationsPC" class="d-none d-lg-inline"
+              >Instalaciones</a
+            >
+
+            <a href="#services">Servicios</a>
+            <a href="#shop">Tienda</a>
+            <a href="#contact">Contactanos</a>
+            <a href="#ubication">Ubicacion</a>
+            <a href="galery.html">Galeria</a>
+          </div>
+        </nav>
+
+        <video autoplay muted loop>
+          <source
+            src="//vimeo-hp-videos.global.ssl.fastly.net/3/3.mp4"
+            type="video/mp4"
+          />
+          Tu navegador no soporta el elemento de video.
+        </video>
       </div>
     </header>
 
