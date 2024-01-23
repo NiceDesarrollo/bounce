@@ -275,6 +275,8 @@ p {
 }
 
 /**Galeria*/
+
+/**Estructura de las fotografias*/
 .image-gallery img {
   cursor: pointer !important;
   width: 100%;
@@ -612,8 +614,11 @@ p {
 
   /**Galeria*/
   .image-carousel-galery.carousel-item img {
+    max-width: 100%;
+    object-fit: fill;
     height: 50vh;
   }
+
 }
 
 /**Estilos para dispositivos moviles*/
