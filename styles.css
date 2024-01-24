@@ -84,6 +84,16 @@ p {
   height: 80vh;
 }
 
+.hero-desktop-loading {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif");
+  background-size: 15% !important; /* O puedes usar un porcentaje como background-size: 50%; */
+  background-size: contain; /* O ajusta a 'auto' para que se ajuste automáticamente */
+  background-position: center;
+  background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+  height: 80vh;
+  width: 100%; /* Ajusta el ancho al 100% para cubrir completamente el div */
+}
+
 /** Estilo adicional para el contenedor del video */
 .hero-image-background-desktop video {
   width: 100%;
