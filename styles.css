@@ -540,6 +540,7 @@ p {
   position: absolute;
   top: 14%;
   right: 16%;
+  z-index: 99999999;
 }
 
 .carousel-control-prev-icon {
