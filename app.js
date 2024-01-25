@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
     }
   }
+
 });
 
 //*Navegación
@@ -76,24 +77,36 @@ function handleClickBall(element) {
   }, 1000);
 }
 
-//*Animación del boton del modal de la galeria
-document.getElementById("prevIcon").addEventListener("click", function () {
-  // Cambiar la escala al hacer clic
-  this.style.transform = "scale(0.8)"; // Puedes ajustar el valor de escala según tus necesidades
+//*Animación del boton del modal de la galeria(previo)
+let prevIcon = document.getElementById("prevIcon");
+if (prevIcon) {
+  //*Animación del boton del modal de la galeria
+  prevIcon.addEventListener("click", function () {
+    // Cambiar la escala al hacer clic
+    this.style.transform = "scale(0.8)"; // Puedes ajustar el valor de escala según tus necesidades
 
-  // Restablecer la escala después de un breve período (500 milisegundos en este ejemplo)
-  setTimeout(function () {
-    document.getElementById("prevIcon").style.transform = "scale(1)";
-  }, 500);
-});
+    // Restablecer la escala después de un breve período (500 milisegundos en este ejemplo)
+    setTimeout(function () {
+      prevIcon.style.transform = "scale(1)";
+    }, 500);
+  });
+}
 
-//*Animación del boton del modal de la galeria
-document.getElementById("nextIcon").addEventListener("click", function () {
-  // Cambiar la escala al hacer clic
-  this.style.transform = "scale(0.8)"; // Puedes ajustar el valor de escala según tus necesidades
+//*Animación del boton del modal de la galeria(Siguiente)
+let nextIcon = document.getElementById("nextIcon");
+if (nextIcon) {
+  nextIcon.addEventListener("click", function () {
+    // Cambiar la escala al hacer clic
+    this.style.transform = "scale(0.8)"; // Puedes ajustar el valor de escala según tus necesidades
 
-  // Restablecer la escala después de un breve período (500 milisegundos en este ejemplo)
-  setTimeout(function () {
-    document.getElementById("nextIcon").style.transform = "scale(1)";
-  }, 500);
-});
+    // Restablecer la escala después de un breve período (500 milisegundos en este ejemplo)
+    setTimeout(function () {
+      nextIcon.style.transform = "scale(1)";
+    }, 500);
+  });
+}
+
+function enableBtn() {
+  document.getElementById("buttonSendForm").disabled = false;
+}
+

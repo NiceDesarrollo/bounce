@@ -24,7 +24,7 @@ h4,
 h5 {
   font-family: "GothamMedium", sans-serif !important;
   color: #f4f4f4 !important;
-}
+}x
 p {
   font-family: "GothamBook", sans-serif !important;
   color: #e2dfdf !important;
@@ -197,7 +197,7 @@ p {
     url("./assets/images/esperandoPelota.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 70vh;
+  height: 95vh;
 }
 /**Formulario de contacto*/
 /**Input de color negro con border verde*/
@@ -531,6 +531,7 @@ p {
   }
 }
 
+/** Estilos del modal de galeria*/
 .background-modal {
   position: relative;
 }
@@ -543,15 +544,8 @@ p {
   z-index: 99999999;
 }
 
-.carousel-control-prev-icon {
-  position: relative;
-  right: 15vh;
-}
 
-.carousel-control-next-icon {
-  position: relative;
-  left: 15vh;
-}
+
 
 /**Estilos para dispositivos moviles*/
 @media only screen and (max-width: 600px) {
@@ -626,7 +620,7 @@ p {
 
   /**Contacto*/
   .contact-image-background {
-    height: 60vh;
+    height: 90vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -695,7 +689,7 @@ p {
 
   /**Contacto*/
   .contact-image-background {
-    height: 75vh;
+    height: 100vh;
   }
 
   /**Ubicacion*/

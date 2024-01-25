@@ -1,0 +1,13 @@
+{
+    "name": "nice/bounce",
+    "description": "bounce padel website",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "authors": [
+        {
+            "name": "Nice Desarrollo",
+            "email": "gahumada@nice.com.mx"
+        }
+    ]
+}
