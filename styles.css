@@ -24,7 +24,7 @@ h4,
 h5 {
   font-family: "GothamMedium", sans-serif !important;
   color: #f4f4f4 !important;
-}x
+}
 p {
   font-family: "GothamBook", sans-serif !important;
   color: #e2dfdf !important;
@@ -329,6 +329,7 @@ p {
 .gallery__item {
   height: 100%;
 }
+
 
 .gallery__item--1 {
   /* Izquierda a derecha */
