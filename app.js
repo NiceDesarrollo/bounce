@@ -30,6 +30,17 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
     }
   }
+
+  var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+  // Aplicar estilo específico si es macOS
+  document.addEventListener("DOMContentLoaded", function () {
+    if (isMac) {
+      var buttonSendForm = document.getElementById("buttonSendForm");
+      if (buttonSendForm) {
+        buttonSendForm.style.paddingTop = "12px";
+      }
+    }
+  });
 });
 
 //*Navegación
@@ -108,16 +119,3 @@ if (nextIcon) {
 function enableBtn() {
   document.getElementById("buttonSendForm").disabled = false;
 }
-
-
-var esMacOS = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
-
-// Aplicar estilo específico si es macOS
-document.addEventListener('DOMContentLoaded', function () {
-    if (esMacOS) {
-        var buttonSendForm = document.getElementById('buttonSendForm');
-        if (buttonSendForm) {
-            buttonSendForm.style.paddingTop = '12px';
-        }
-    }
-});
