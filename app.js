@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (esMacOS) {
         var buttonSendForm = document.getElementById('buttonSendForm');
         if (buttonSendForm) {
-            buttonSendForm.style.paddingTop = '10px';
+            buttonSendForm.style.paddingTop = '12px';
         }
     }
 });
