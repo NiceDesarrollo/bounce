@@ -109,4 +109,15 @@ function enableBtn() {
   document.getElementById("buttonSendForm").disabled = false;
 }
 
-alert(navigator.userAgent);
+
+var esMacOS = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+
+// Aplicar estilo específico si es macOS
+document.addEventListener('DOMContentLoaded', function () {
+    if (esMacOS) {
+        var buttonSendForm = document.getElementById('buttonSendForm');
+        if (buttonSendForm) {
+            buttonSendForm.style.paddingTop = '10px';
+        }
+    }
+});
