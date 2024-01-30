@@ -33,14 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
   // Aplicar estilo específico si es macOS
-  document.addEventListener("DOMContentLoaded", function () {
-    if (isMac) {
-      var buttonSendForm = document.getElementById("buttonSendForm");
-      if (buttonSendForm) {
-        buttonSendForm.style.paddingTop = "12px";
-      }
+  if (isMac) {
+    var buttonSendForm = document.getElementById("buttonSendForm");
+    if (buttonSendForm) {
+      buttonSendForm.style.paddingTop = "12px";
     }
-  });
+  }
 });
 
 //*Navegación
