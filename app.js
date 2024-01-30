@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
     }
   }
-
 });
 
 //*Navegación
@@ -109,4 +108,3 @@ if (nextIcon) {
 function enableBtn() {
   document.getElementById("buttonSendForm").disabled = false;
 }
-

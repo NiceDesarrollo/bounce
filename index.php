@@ -29,7 +29,7 @@ session_start();
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
   <!-- recaptcha script -->
-  <script src="https://www.google.com/recaptcha/api.js?hl=es" async defer></script> 
+  <script src="https://www.google.com/recaptcha/api.js?hl=es" async defer></script>
 
   <!-- Titulo del tab -->
   <title>bounce</title>
@@ -500,7 +500,7 @@ session_start();
 
               <!-- Boton de enviar -->
               <div class="mt-2 d-flex justify-content-end">
-                <button type="submit" class="btn btn-primary btn-sm button-form" style="padding: 10px" value="submit" id="buttonSendForm" disabled="disabled">
+                <button type="submit" class="btn btn-primary btn-sm button-form boton-macos" value="submit" id="buttonSendForm" disabled="disabled">
                   ENVIAR
                 </button>
               </div>

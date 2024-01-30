@@ -330,7 +330,6 @@ p {
   height: 100%;
 }
 
-
 .gallery__item--1 {
   /* Izquierda a derecha */
   grid-column-start: 1;
@@ -544,8 +543,6 @@ p {
   right: 16%;
   z-index: 99999999;
 }
-
-
 
 
 /**Estilos para dispositivos moviles*/
