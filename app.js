@@ -108,3 +108,5 @@ if (nextIcon) {
 function enableBtn() {
   document.getElementById("buttonSendForm").disabled = false;
 }
+
+alert(navigator.userAgent);

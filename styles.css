@@ -50,7 +50,6 @@ p {
   text-decoration: none;
   padding: 10px;
   color: #bababa;
-  font-weight: 900;
 }
 .navbar-right a:hover {
   text-decoration: underline;
@@ -543,6 +542,7 @@ p {
   right: 16%;
   z-index: 99999999;
 }
+
 
 
 /**Estilos para dispositivos moviles*/

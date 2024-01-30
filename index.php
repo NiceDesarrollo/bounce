@@ -500,7 +500,7 @@ session_start();
 
               <!-- Boton de enviar -->
               <div class="mt-2 d-flex justify-content-end">
-                <button type="submit" class="btn btn-primary btn-sm button-form boton-macos" value="submit" id="buttonSendForm" disabled="disabled">
+                <button type="submit" class="btn btn-primary btn-sm button-form" value="submit" id="buttonSendForm" disabled="disabled">
                   ENVIAR
                 </button>
               </div>
