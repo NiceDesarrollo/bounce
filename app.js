@@ -28,6 +28,12 @@ document.addEventListener("DOMContentLoaded", function () {
       case 2:
         imageElement.src = "./assets/images/vestidores.webp";
         break;
+      case 3:
+        imageElement.src = "./assets/images/regaderas.webp";
+        break;
+        case 4:
+          imageElement.src = "./assets/images/estacionamiento.webp";
+          break;
     }
   }
 

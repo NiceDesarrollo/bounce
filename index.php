@@ -171,7 +171,7 @@ session_start();
       <div id="installationsPC" class="bg-image installations-image-background d-none d-md-block">
         <div class="row h-100">
           <div class="col-md-5 p-3" style="max-height: 100%">
-            <!-- Imagen que cambiará -->
+            <!-- Imagen que cambiará e imagen en la que empieza el carousel -->
             <img id="changingImage" src="./assets/images/cafeteria.webp" alt="Imagen 1" class="img-fluid changingImage rounded shadow" />
           </div>
 
@@ -183,7 +183,8 @@ session_start();
             <!-- Carousel -->
             <div id="carouselSectionPc" class="carousel slide my-5" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <!-- carousel item active -->
+
+                <!-- Cafeteria -->
                 <div class="carousel-item active">
                   <div class="text-center">
                     <h3 class="my-5">Caféteria</h3>
@@ -200,7 +201,7 @@ session_start();
                   </div>
                 </div>
 
-                <!-- carousel item -->
+                <!-- Canchas -->
                 <div class="carousel-item">
                   <div class="text-center">
                     <h3 class="my-5">Canchas</h3>
@@ -218,7 +219,7 @@ session_start();
                   </div>
                 </div>
 
-                <!-- carousel item -->
+                <!-- Vestidores -->
                 <div class="carousel-item">
                   <div class="text-center">
                     <h3 class="my-5">Vestidores</h3>
@@ -231,6 +232,37 @@ session_start();
                     </p>
                   </div>
                 </div>
+
+                <!-- Regaderas-->
+                <div class="carousel-item">
+                  <div class="text-center">
+                    <h3 class="my-5">Regaderas</h3>
+                    <p class="mt-1 justify-text" style="padding-right: 60px; padding-left: 60px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Explicabo facilis a labore officiis pariatur ipsam
+                      perferendis necessitatibus dolorem deserunt enim. Iusto
+                      eum, minima reprehenderit porro eligendi mollitia illo!
+                      Vel, illum.
+                    </p>
+                  </div>
+                </div>
+
+                
+                <!-- Estacionamiento -->
+                <div class="carousel-item">
+                  <div class="text-center">
+                    <h3 class="my-5">Estacionamiento</h3>
+                    <p class="mt-1 justify-text" style="padding-right: 60px; padding-left: 60px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Explicabo facilis a labore officiis pariatur ipsam
+                      perferendis necessitatibus dolorem deserunt enim. Iusto
+                      eum, minima reprehenderit porro eligendi mollitia illo!
+                      Vel, illum.
+                    </p>
+                  </div>
+                </div>
+
+
               </div>
 
               <!-- Botones del carousel -->
