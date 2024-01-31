@@ -55,6 +55,8 @@ p {
   text-decoration: underline;
 }
 
+
+
 .navbar-logo {
   margin-left: 15px;
 }
@@ -179,6 +181,16 @@ p {
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
   height: 85vh;
+}
+
+.book-here-link{
+  font-weight: 100;
+  text-decoration: none;
+  color: #a5d15f;
+}
+
+.book-here-link:hover{
+  text-decoration: underline;
 }
 
 /**Tienda*/
@@ -620,7 +632,7 @@ p {
 
   /**Servicios*/
   .services-image-background {
-    height: 70vh;
+    height: 90vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -711,7 +723,7 @@ p {
 
   /**Servicios*/
   .services-image-background {
-    height: 75vh;
+    height: 115vh;
   }
 
   /**Tienda*/

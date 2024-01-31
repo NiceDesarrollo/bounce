@@ -508,9 +508,19 @@ session_start();
                         <p>12:00 - 16:00: Tarifa $600</p>
                         <p>16:00 - 18:00: Tarifa $800</p>
                         <p>18:00 - 22:30: Tarifa $1,000</p>
+                        <p class="mb-5 mt-5">En Bounce Padel siempre encontrarás la mejor tarifa para disfrutar del pádel con amigos.</p>
+
+                        <a href="#services" >
+                            <button type="submit" class="btn btn-primary btn-sm button-form px-4"
+                                id="buttonSendForm">
+                                ¡RESERVAR AQUI!
+                            </button>
+                        </a>
+
+                        <br>
 
                         <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
+                            onclick="handleClickBall(this)" class="mt-4" style="cursor: pointer" />
                     </div>
                     <div class="col-md-6 text-center text-white pr-3"></div>
                 </div>
@@ -701,7 +711,7 @@ session_start();
                                 <input style="padding-top: 15px" required type="text" class="form-control black-input"
                                     id="nameInput" aria-describedby="nameInput" name="name"
                                     oninvalid="this.setCustomValidity('Introduce tu nombre')"
-                                    oninput="setCustomValidity('')" />
+                                    oninput="setCustomValidity('')" autocomplete="name" />
                             </div>
 
                             <!-- Input correo y celular -->
@@ -712,7 +722,7 @@ session_start();
                                         <input style="padding-top: 15px" required type="email"
                                             class="form-control black-input" id="emailInput" name="email"
                                             oninvalid="this.setCustomValidity('Introduce tu correo')"
-                                            oninput="setCustomValidity('')" />
+                                            oninput="setCustomValidity('')" autocomplete="email" />
                                     </div>
                                 </div>
                                 <div class="col">
@@ -721,7 +731,7 @@ session_start();
                                         <input style="padding-top: 15px" required type="text"
                                             class="form-control black-input" id="phoneInput" name="phone"
                                             oninvalid="this.setCustomValidity('Introduce tu numero celular')"
-                                            oninput="setCustomValidity('')" />
+                                            oninput="setCustomValidity('')" autocomplete="phone" />
                                     </div>
                                 </div>
                             </div>
