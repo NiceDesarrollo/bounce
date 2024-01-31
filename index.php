@@ -531,8 +531,8 @@ session_start();
               <div class="g-recaptcha mt-4" data-sitekey="6LeqmFspAAAAAHrADuvHzFH8uR3P_jpffd-GKx_R" data-theme="dark" data-callback="enableBtn"></div>
 
               <!-- Boton de enviar -->
-              <div class="mt-2 d-flex justify-content-end">
-                <button type="submit" class="btn btn-primary btn-sm button-form" value="submit" id="buttonSendForm" disabled="disabled">
+              <div class="mt-2 d-flex justify-content-end ">
+                <button type="submit" class="btn btn-primary btn-sm button-form px-4" value="submit" id="buttonSendForm" disabled="disabled">
                   ENVIAR
                 </button>
               </div>
