@@ -190,6 +190,24 @@ p {
   height: 70vh;
 }
 
+/**Academia*/
+.academy-image-background {
+  background: linear-gradient(to right, #0f1f0f, transparent),
+    url("./assets/images/academia.webp");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 50vh;
+}
+
+/**Torneo*/
+.tournament-image-background {
+  background: linear-gradient(to right, #0f1f0f, transparent),
+    url("./assets/images/torneo.webp");
+  background-size: cover; /** Ajusta el tamaño de la imagen */
+  background-position: center; /** Centra la imagen */
+  height: 50vh;
+}
+
 /**Contacto*/
 .contact-image-background {
   background: linear-gradient(to right, #0f1f0f, transparent),
@@ -584,7 +602,7 @@ p {
   }
   .who-we-are-image-background {
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -602,7 +620,7 @@ p {
 
   /**Servicios*/
   .services-image-background {
-    height: 60vh;
+    height: 70vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -610,6 +628,22 @@ p {
 
   /**Tienda*/
   .shop-image-background {
+    height: 65vh;
+    /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+    background-color: #0f1f0fa0;
+    background-blend-mode: multiply;
+  }
+
+  /**Academia*/
+  .academy-image-background {
+    height: 65vh;
+    /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
+    background-color: #0f1f0fa0;
+    background-blend-mode: multiply;
+  }
+
+  /**Torneo*/
+  .tournament-image-background {
     height: 65vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
@@ -663,7 +697,7 @@ p {
   }
   .who-we-are-image-background {
     width: 100%;
-    height: 110vh;
+    height: 130vh;
   }
   .overlay-text {
     max-width: 100%;
@@ -682,6 +716,16 @@ p {
 
   /**Tienda*/
   .shop-image-background {
+    height: 80vh;
+  }
+
+  /**Academia*/
+  .academy-image-background {
+    height: 80vh;
+  }
+
+  /**Torneo*/
+  .tournament-image-background {
     height: 80vh;
   }
 
