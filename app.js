@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (isMac) {
     var buttonSendForm = document.getElementById("buttonSendForm");
     if (buttonSendForm) {
-      buttonSendForm.style.paddingTop = "1vh";
+      buttonSendForm.style.paddingTop = "1.5vh";
     }
   }
 });
