@@ -594,6 +594,11 @@ p {
   .ubication-image-background {
     height: 900px;
   }
+
+  .text-content-info{
+    padding-right: 400px !important;
+    padding-left: 400px !important;
+  }
 }
 
 /* Mostrar en pantallas grandes */

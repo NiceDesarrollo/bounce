@@ -276,7 +276,7 @@ session_start();
                         </p>
 
                         <!-- pc text -->
-                        <p class="mt-5 justify-text text-desktop" style="padding-right: 55px; padding-left: 55px">
+                        <p class="mt-5 justify-text text-desktop text-content-info" style="padding-right: 55px; padding-left: 55px">
                             ¡Somos unos apasionados por el deporte!
                             Nuestro objetivo es forjar una comunidad con todos aquellos que comparten nuestra pasión.
                             Aspiramos a construir un espacio exclusivo para todas las personas que disfrutan de
@@ -318,7 +318,7 @@ session_start();
                                 <div class="carousel-item active">
                                     <div class="text-center">
                                         <h3 class="my-5">Cafetería</h3>
-                                        <p class="mt-1 justify-text" style="padding-right: 60px; padding-left: 60px">
+                                        <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
                                             Cafeto Snack&Bar, un lugar para relajarse y compartir momentos después del
                                             juego. Te ofrecemos diferentes snacks, desde desayunos saludables hasta
                                             comidas botaneras y bebidas para disfrutar después de un partido de pádel.
@@ -332,7 +332,7 @@ session_start();
                                 <div class="carousel-item">
                                     <div class="text-center">
                                         <h3 class="my-5">Canchas</h3>
-                                        <p class="mt-1 justify-text" style="padding-right: 60px; padding-left: 60px">
+                                        <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
                                             Nuestras pistas están construidas con materiales de alta
                                             calidad, proporcionando una superficie perfecta para el
                                             juego. Cada cancha está diseñada con una superficie que
@@ -350,7 +350,7 @@ session_start();
                                 <div class="carousel-item">
                                     <div class="text-center">
                                         <h3 class="my-5">Vestidores</h3>
-                                        <p class="mt-1 justify-text" style="padding-right: 60px; padding-left: 60px">
+                                        <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
                                             Modernos y equipados con todo lo que necesitas para prepararte y relajarte
                                             antes y después de tu juego. Disfruta de vestidores, regaderas y lockers
                                             especialmente diseñados para estar cómodo.
@@ -362,7 +362,7 @@ session_start();
                                 <div class="carousel-item">
                                     <div class="text-center">
                                         <h3 class="my-5">Regaderas</h3>
-                                        <p class="mt-1 justify-text" style="padding-right: 60px; padding-left: 60px">
+                                        <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Explicabo facilis a labore officiis pariatur ipsam
                                             perferendis necessitatibus dolorem deserunt enim. Iusto
@@ -377,7 +377,7 @@ session_start();
                                 <div class="carousel-item">
                                     <div class="text-center">
                                         <h3 class="my-5">Estacionamiento</h3>
-                                        <p class="mt-1 justify-text" style="padding-right: 60px; padding-left: 60px">
+                                        <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Explicabo facilis a labore officiis pariatur ipsam
                                             perferendis necessitatibus dolorem deserunt enim. Iusto
@@ -533,7 +533,7 @@ session_start();
         <section>
             <div id="services" class="bg-image services-image-background">
                 <div class="row">
-                    <div class="col-md-6 text-center text-white  mt-5">
+                    <div class="col-md-6 text-center text-white  mt-5 text-content-info">
                         <h2 class="mt-5">Servicios</h2>
                         <h3 class="mt-5">Renta de canchas</h3>
                         <p class="mt-5 mb-4">Precios:</p>
@@ -566,7 +566,7 @@ session_start();
             <div id="shop" class="bg-image shop-image-background">
                 <div class="row">
                     <div class="col-md-6 text-center text-white pr-3"></div>
-                    <div class="col-md-6 text-center text-white mt-md-5 mt-5">
+                    <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
                         <h2 class="mt-5 mt-md-5">Tienda</h2>
                         <h3 class="mt-5">Venta de artículos deportivos</h3>
                         <!-- Mobile text -->
@@ -593,7 +593,7 @@ session_start();
         <section>
             <div id="whoWeAre" class="bg-image academy-image-background">
                 <div class="row">
-                    <div class="col-md-6 text-center text-white mt-md-5 mt-5">
+                    <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
                         <h2 class="mt-5 mt-md-5">Academia</h2>
 
                         <!-- Mobile text -->
@@ -625,7 +625,7 @@ session_start();
             <div id="shop" class="bg-image tournament-image-background">
                 <div class="row">
                     <div class="col-md-6 text-center text-white pr-3"></div>
-                    <div class="col-md-6 text-center text-white mt-md-5 mt-5">
+                    <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
                         <h2 class="mt-5 mt-md-5">Torneos</h2>
                         <!-- Mobile text -->
                         <p class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
