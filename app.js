@@ -1,23 +1,23 @@
-/* Este metodo se asegura que haya cargado todo el html para poder manipular el js */
+//* Este metodo se asegura que haya cargado todo el html para poder manipular el js */
 document.addEventListener("DOMContentLoaded", function () {
-  //Carousel usando bootstrap
+  //*Carousel usando bootstrap
   var carousel = new bootstrap.Carousel(
     document.getElementById("carouselSectionPc")
   );
 
-  // Evento que se dispara al cambiar de diapositiva en el carrusel
+  //* Evento que se dispara al cambiar de diapositiva en el carrusel
   carousel._element.addEventListener("slid.bs.carousel", function (event) {
     var currentSlide = event.to;
-    // Actualizar la imagen en base a la diapositiva actual
+    //* Actualizar la imagen en base a la diapositiva actual
     updateImage(currentSlide);
   });
 
-  //Actualizar imagen
+  //*Actualizar imagen
   function updateImage(slideIndex) {
-    //Imagen que se va a cambiar en base al carousel
+    //*Imagen que se va a cambiar en base al carousel
     var imageElement = document.getElementById("changingImage");
 
-    // Cambiar la fuente de la imagen en función de la diapositiva actual
+    //* Cambiar la fuente de la imagen en función de la diapositiva actual
     switch (slideIndex) {
       case 0:
         imageElement.src = "./assets/images/cafeteria.webp";
@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  //* Aplicar estilo específico si es macOS
   var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
-  // Aplicar estilo específico si es macOS
   if (isMac) {
     var buttonSendForm = document.getElementById("buttonSendForm");
     if (buttonSendForm) {
-      buttonSendForm.style.paddingTop = "12px";
+      buttonSendForm.style.paddingTop = "2vh";
     }
   }
 });
