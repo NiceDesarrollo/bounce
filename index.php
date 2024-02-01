@@ -546,7 +546,7 @@ session_start();
                             pádel con amigos.</p>
 
                         <a href="#services">
-                            <button type="submit" class="btn btn-primary btn-sm button-form px-4">
+                            <button type="submit" class="btn btn-primary btn-sm button-form px-4" id="buttonReservation">
                                 ¡RESERVAR AQUI!
                             </button>
                         </a>

@@ -41,8 +41,14 @@ document.addEventListener("DOMContentLoaded", function () {
   var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
   if (isMac) {
     var buttonSendForm = document.getElementById("buttonSendForm");
+    var buttonReservation = document.getElementById("buttonReservation");
+    
     if (buttonSendForm) {
       buttonSendForm.style.paddingTop = "1.5vh";
+    }
+
+    if (buttonReservation) {
+      buttonReservation.style.paddingTop = "1.5vh";
     }
   }
 });
