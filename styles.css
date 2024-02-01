@@ -596,6 +596,21 @@ p {
   }
 }
 
+/* Mostrar en pantallas grandes */
+@media (min-width: 1500px) {
+
+  .carousel-control-prev{
+    padding-right: 100px !important;
+    padding-top: 80px !important;
+  }
+
+  .carousel-control-next{
+    padding-left: 100px !important;
+    padding-top: 80px !important;
+  }
+
+}
+
 /* Mostrar en pantallas medianas y más grandes */
 @media (min-width: 990px) {
   .text-desktop {

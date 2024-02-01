@@ -395,8 +395,8 @@ session_start();
                             <!-- Previo -->
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselSectionPc"
                                 data-bs-slide="prev" style="
-                    padding-right: 50px !important;
-                    padding-top: 80px !important;
+                    padding-right: 50px ;
+                    padding-top: 80px ;
                   ">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
@@ -405,8 +405,8 @@ session_start();
                             <!-- Siguiente -->
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselSectionPc"
                                 data-bs-slide="next" style="
-                    padding-left: 50px !important;
-                    padding-top: 80px !important;
+                    padding-left: 50px ;
+                    padding-top: 80px ;
                   ">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
