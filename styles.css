@@ -523,6 +523,13 @@ p {
   display: none !important;
 }
 
+/* Mostrar en pantallas medianas y más grandes */
+@media (min-width: 990px) {
+  .gallery-desktop {
+    display: grid !important;
+  }
+}
+
 /* Ocultar en todas las pantallas por defecto */
 .text-desktop {
   display: none !important;
@@ -595,25 +602,10 @@ p {
     height: 900px;
   }
 
-  .text-content-info{
+  .text-content-info {
     padding-right: 400px !important;
     padding-left: 400px !important;
   }
-}
-
-/* Mostrar en pantallas grandes */
-@media (min-width: 1500px) {
-
-  .carousel-control-prev{
-    padding-right: 100px !important;
-    padding-top: 80px !important;
-  }
-
-  .carousel-control-next{
-    padding-left: 100px !important;
-    padding-top: 80px !important;
-  }
-
 }
 
 /* Mostrar en pantallas medianas y más grandes */
@@ -621,7 +613,7 @@ p {
   .text-desktop {
     display: block !important;
   }
-  .text-service-desktop{
+  .text-service-desktop {
     padding-left: 1vh;
   }
 }

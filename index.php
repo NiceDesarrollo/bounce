@@ -11,16 +11,14 @@ session_start();
 
     <!-- SEO TAGS -->
     <meta http-equiv="content-language" content="es">
-    <meta name="description"
-        content="Experiencia única en el mundo del pádel.Con instalaciones de primera clase; canchas, áreas de descanso, vestidores e instructores expertos, ¡prepárate para llevarte tu juego al siguiente nivel." />
+    <meta name="description" content="Experiencia única en el mundo del pádel.Con instalaciones de primera clase; canchas, áreas de descanso, vestidores e instructores expertos, ¡prepárate para llevarte tu juego al siguiente nivel." />
     <meta name="keywords" content="Deporte, Padel" />
     <meta name="author" content="Nice" />
     <meta http-equiv="content-language" content="es" />
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://nicedesarrollo.github.io/bounce" />
     <meta property="og:title" content="Bounce Padel: Pasión por el Pádel en el corazón de Guadalajara" />
-    <meta property="og:description"
-        content="Nos apasiona el pádel y nuestro objetivo es construir una comunidad para todos los amantes del pádel. Ofrecemos un espacio exclusivo donde jugadores de todos los niveles pueden aprender, ejercitarse y disfrutar con amigos y familiares. " />
+    <meta property="og:description" content="Nos apasiona el pádel y nuestro objetivo es construir una comunidad para todos los amantes del pádel. Ofrecemos un espacio exclusivo donde jugadores de todos los niveles pueden aprender, ejercitarse y disfrutar con amigos y familiares. " />
     <meta property="og:image" content="./assets/Bounce_Blanco.png" />
     <meta property="og:image:alt" content="Pasión por el Pádel en el corazón de Guadalajara">
     <meta property="og:url" content="https://nicedesarrollo.github.io/bounce" />
@@ -28,111 +26,110 @@ session_start();
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@tuusuario">
     <meta name="twitter:title" content="Bounce Padel: Pasión por el Pádel en el corazón de Guadalajara">
-    <meta name="twitter:description"
-        content="Nos apasiona el pádel y nuestro objetivo es construir una comunidad para todos los amantes del pádel...">
+    <meta name="twitter:description" content="Nos apasiona el pádel y nuestro objetivo es construir una comunidad para todos los amantes del pádel...">
     <meta name="twitter:image" content="./assets/Bounce_Blanco.png">
 
     <!-- Datos estructurados para la pagina en general -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Bounce Padel",
-        "description": "Experiencia única en el mundo del pádel.Con instalaciones de primera clase; canchas, áreas de descanso, vestidores e instructores expertos, ¡prepárate para llevarte tu juego al siguiente nivel.",
-        "url": "https://nicedesarrollo.github.io/bounce",
-        "logo": "https://nicedesarrollo.github.io/bounce/assets/Bounce_Blanco.png",
-        "sameAs": ["enlaces a tus perfiles de redes sociales"]
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Bounce Padel",
+            "description": "Experiencia única en el mundo del pádel.Con instalaciones de primera clase; canchas, áreas de descanso, vestidores e instructores expertos, ¡prepárate para llevarte tu juego al siguiente nivel.",
+            "url": "https://nicedesarrollo.github.io/bounce",
+            "logo": "https://nicedesarrollo.github.io/bounce/assets/Bounce_Blanco.png",
+            "sameAs": ["enlaces a tus perfiles de redes sociales"]
+        }
     </script>
 
     <!-- Datos estructurados para "Quienes somos" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "AboutPage",
-        "description": "Descubre quiénes somos y nuestra pasión por el pádel. Conoce más sobre nuestras instalaciones de primera clase, nuestros instructores expertos y cómo estamos comprometidos en llevar tu experiencia de juego al siguiente nivel."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "description": "Descubre quiénes somos y nuestra pasión por el pádel. Conoce más sobre nuestras instalaciones de primera clase, nuestros instructores expertos y cómo estamos comprometidos en llevar tu experiencia de juego al siguiente nivel."
+        }
     </script>
 
     <!-- Datos estructurados para "Instalaciones" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Installations",
-        "description": "Con canchas de primera calidad, vestidores bien equipados, un área de comida deliciosa y estacionamiento privado, nuestras instalaciones tienen todo lo que necesitas."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Installations",
+            "description": "Con canchas de primera calidad, vestidores bien equipados, un área de comida deliciosa y estacionamiento privado, nuestras instalaciones tienen todo lo que necesitas."
+        }
     </script>
 
     <!-- Datos estructurados para "Canchas" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Courts",
-        "description": "Nuestras pistas están diseñadas para brindar un equilibrio ideal entre agarre y deslizamiento, en una superficie perfecta para el juego."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Courts",
+            "description": "Nuestras pistas están diseñadas para brindar un equilibrio ideal entre agarre y deslizamiento, en una superficie perfecta para el juego."
+        }
     </script>
 
     <!-- Datos estructurados para "Cafetería" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Coffe shop",
-        "description": "Ofrecemos una variedad de snacks, desde desayunos saludables hasta comidas botaneras y bebidas refrescantes para complementar tu experiencia después de un partido de pádel."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Coffe shop",
+            "description": "Ofrecemos una variedad de snacks, desde desayunos saludables hasta comidas botaneras y bebidas refrescantes para complementar tu experiencia después de un partido de pádel."
+        }
     </script>
 
     <!-- Datos estructurados para "Vestidores" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Dressing rooms",
-        "description": "Te ofrecemos vestidores modernos y completamente equipados para que te prepares y relajes antes y después de un partido de pádel. Disfruta de nuestras regaderas y lockers"
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Dressing rooms",
+            "description": "Te ofrecemos vestidores modernos y completamente equipados para que te prepares y relajes antes y después de un partido de pádel. Disfruta de nuestras regaderas y lockers"
+        }
     </script>
 
     <!-- Datos estructurados para "Espacios" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Spaces",
-        "description": "Con canchas de primera calidad, vestidores bien equipados, un área de comida deliciosa y estacionamiento privado, nuestras instalaciones tienen todo lo que necesitas."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Spaces",
+            "description": "Con canchas de primera calidad, vestidores bien equipados, un área de comida deliciosa y estacionamiento privado, nuestras instalaciones tienen todo lo que necesitas."
+        }
     </script>
 
     <!-- Datos estructurados para "Renta de canchas" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Courts rent",
-        "description": "Flexibles precios y horarios en Bounce Padel Desde $600 hasta $1,000, encuentra la tarifa perfecta para disfrutar del pádel con amigos. ¡Reserva aquí!"
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Courts rent",
+            "description": "Flexibles precios y horarios en Bounce Padel Desde $600 hasta $1,000, encuentra la tarifa perfecta para disfrutar del pádel con amigos. ¡Reserva aquí!"
+        }
     </script>
 
     <!-- Datos estructurados para "Tienda" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Shop",
-        "description": "Encuentra todo lo que necesitas para mejorar tu juego en Bounce Padel. Desde raquetas hasta calzado, nuestros expertos te ayudarán a elegir lo mejor para ti."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Shop",
+            "description": "Encuentra todo lo que necesitas para mejorar tu juego en Bounce Padel. Desde raquetas hasta calzado, nuestros expertos te ayudarán a elegir lo mejor para ti."
+        }
     </script>
 
     <!-- Datos estructurados para "Ubicación" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Location",
-        "description": "Encuéntranos en el corazón de Providencia, Guadalajara, en la calle Alberta 2230, Colonia Colomos Providencia, C.P. 44660. Con una ubicación increíble, Bounce Padel es tu destino para disfrutar del pádel en Guadalajara."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Location",
+            "description": "Encuéntranos en el corazón de Providencia, Guadalajara, en la calle Alberta 2230, Colonia Colomos Providencia, C.P. 44660. Con una ubicación increíble, Bounce Padel es tu destino para disfrutar del pádel en Guadalajara."
+        }
     </script>
 
     <!-- Datos estructurados para "Contacto" -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Contact",
-        "description": "No dudes en contactarnos. Llámanos al teléfono (+52) 332 255 6714 para obtener más información sobre nuestras instalaciones, reservas de canchas y servicios en Bounce Padel."
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Contact",
+            "description": "No dudes en contactarnos. Llámanos al teléfono (+52) 332 255 6714 para obtener más información sobre nuestras instalaciones, reservas de canchas y servicios en Bounce Padel."
+        }
     </script>
 
 
@@ -143,11 +140,26 @@ session_start();
     <!-- FavIcon -->
     <link rel="icon" type="image/x-icon" href="./assets/SVG/Asset 6.svg" />
     <!-- Bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <!-- recaptcha script -->
     <script src="https://www.google.com/recaptcha/api.js?hl=es" async defer></script>
+
+    <!-- Estos estilos solo se necesitan en esta pagina -->
+    <style>
+        /* Mostrar en pantallas grandes */
+        @media (min-width: 1500px) {
+            .carousel-control-prev {
+                padding-right: 100px !important;
+                padding-top: 80px !important;
+            }
+
+            .carousel-control-next {
+                padding-left: 100px !important;
+                padding-top: 80px !important;
+            }
+        }
+    </style>
 
     <!-- Titulo del tab -->
     <title>bounce</title>
@@ -192,23 +204,17 @@ session_start();
             </div>
 
             <!-- Modal -->
-            <div style="margin-top: 60px" class="modal fade" id="videoModal" tabindex="-1"
-                aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div style="margin-top: 60px" class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
                 <!-- Contenido del modal -->
                 <div class="modal-dialog modal-lg pt-4" role="document">
                     <div class="modal-content text-light" style="background-color: #0f1f0fe9">
                         <div class="modal-header">
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                                aria-label="Cerrar"></button>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                         </div>
                         <div class="modal-body">
                             <!-- Embed del video de YouTube -->
                             <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube-nocookie.com/embed/M2_in0-IU2k?si=2TZB7RIt2BuLWyJ6"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                                    allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/M2_in0-IU2k?si=2TZB7RIt2BuLWyJ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -259,8 +265,7 @@ session_start();
                 <div class="row">
                     <div class="col-md-6 text-center text-white mt-md-5 mt-5">
                         <h2 class="mt-5 mt-md-5">¿Quiénes somos?</h2>
-                        <img class="mt-3" width="300" src="./assets/Bounce_Blanco.png" alt="Logo Bounce"
-                            loading="lazy" />
+                        <img class="mt-3" width="300" src="./assets/Bounce_Blanco.png" alt="Logo Bounce" loading="lazy" />
 
                         <!-- Mobile text -->
                         <p class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
@@ -287,8 +292,7 @@ session_start();
                         </p>
 
                         <!-- Imagen de la pelota amarilla -->
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
                     </div>
                     <div class="col-md-6 text-center text-white pr-3"></div>
                 </div>
@@ -301,8 +305,7 @@ session_start();
                 <div class="row h-100">
                     <div class="col-md-5 p-3" style="max-height: 100%">
                         <!-- Imagen que cambiará e imagen en la que empieza el carousel -->
-                        <img id="changingImage" src="./assets/images/cafeteria.webp" alt="Imagen 1"
-                            class="img-fluid changingImage rounded shadow" />
+                        <img id="changingImage" src="./assets/images/cafeteria.webp" alt="Imagen 1" class="img-fluid changingImage rounded shadow" />
                     </div>
 
                     <!-- Lado derecho del carousel -->
@@ -393,28 +396,23 @@ session_start();
                             <!-- Botones del carousel -->
 
                             <!-- Previo -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSectionPc"
-                                data-bs-slide="prev" style="
-                    padding-right: 50px ;
-                    padding-top: 80px ;
-                  ">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSectionPc" data-bs-slide="prev" style="
+                                    padding-right: 50px ;
+                                    padding-top: 80px ;" id="carousel-control-prev-index">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
 
                             <!-- Siguiente -->
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSectionPc"
-                                data-bs-slide="next" style="
-                    padding-left: 50px ;
-                    padding-top: 80px ;
-                  ">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSectionPc" data-bs-slide="next" style="
+                                    padding-left: 50px ;
+                                    padding-top: 80px ;" id="carousel-control-next-index">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
 
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" style="cursor: pointer" />
                     </div>
                 </div>
             </div>
@@ -516,13 +514,11 @@ session_start();
                 </div>
 
                 <!-- Botones del carousel -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSectionMobile"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSectionMobile" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselSectionMobile"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselSectionMobile" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -553,8 +549,7 @@ session_start();
 
                         <br>
 
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" class="mt-4" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-4" style="cursor: pointer" />
                     </div>
                     <div class="col-md-6 text-center text-white pr-3"></div>
                 </div>
@@ -582,8 +577,7 @@ session_start();
                             cancha con nosotros!
                         </p>
 
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
                     </div>
                 </div>
             </div>
@@ -611,8 +605,7 @@ session_start();
                         </p>
 
                         <!-- Imagen de la pelota amarilla -->
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
                     </div>
                     <div class="col-md-6 text-center text-white pr-3"></div>
                 </div>
@@ -640,8 +633,7 @@ session_start();
                             Repellat error mollitia reiciendis laudantium incidunt.
                         </p>
 
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
                     </div>
                 </div>
             </div>
@@ -656,82 +648,80 @@ session_start();
                     <div class="col-md-6 text-white d-flex flex-column align-items-center mt-md-5 mt-5">
 
                         <?php
-            //* Verifica si hay un error de reCAPTCHA
-            if (isset($_SESSION['error_recaptcha']) && $_SESSION['error_recaptcha']) :
-            ?>
-                        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                            <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
-                                <path
-                                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                            </symbol>
-                        </svg>
-
-                        <div class="alert alert-danger d-flex align-items-center" role="alert">
-                            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
-                                <use xlink:href="#exclamation-triangle-fill" />
+                        //* Verifica si hay un error de reCAPTCHA
+                        if (isset($_SESSION['error_recaptcha']) && $_SESSION['error_recaptcha']) :
+                        ?>
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                </symbol>
                             </svg>
-                            <div class="pt-2 px-2">
-                                Hubo un problema con el recaptcha
+
+                            <div class="alert alert-danger d-flex align-items-center" role="alert">
+                                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+                                    <use xlink:href="#exclamation-triangle-fill" />
+                                </svg>
+                                <div class="pt-2 px-2">
+                                    Hubo un problema con el recaptcha
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
 
-                        <!-- Cargar el script unicamente cuando se cumpla la condicion -->
-                        <script>
-                        //Desaparecer la alerta despues de 5 segundos
-                        setTimeout(function() {
-                            var alert = document.querySelector(".alert");
-                            alert.classList.add("fade");
-                            alert.addEventListener("transitionend", function() {
-                                alert.remove();
-                            });
-                        }, 5000);
-                        </script>
+                            <!-- Cargar el script unicamente cuando se cumpla la condicion -->
+                            <script>
+                                //Desaparecer la alerta despues de 5 segundos
+                                setTimeout(function() {
+                                    var alert = document.querySelector(".alert");
+                                    alert.classList.add("fade");
+                                    alert.addEventListener("transitionend", function() {
+                                        alert.remove();
+                                    });
+                                }, 5000);
+                            </script>
 
                         <?php
-              // Limpia la variable de sesión para que no se muestre el modal en futuras visitas
-              unset($_SESSION['error_recaptcha']);
-            endif;
-            ?>
+                            // Limpia la variable de sesión para que no se muestre el modal en futuras visitas
+                            unset($_SESSION['error_recaptcha']);
+                        endif;
+                        ?>
 
                         <?php
-            // Verifica si el captcha fue exitoso
-            if (isset($_SESSION['success_recaptcha']) && $_SESSION['success_recaptcha']) :
-            ?>
-                        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                            <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
-                                <path
-                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                            </symbol>
-                        </svg>
-
-                        <div class="alert alert-success d-flex align-items-center mt-2" role="alert" id="successAlert">
-                            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
-                                <use xlink:href="#check-circle-fill" />
+                        // Verifica si el captcha fue exitoso
+                        if (isset($_SESSION['success_recaptcha']) && $_SESSION['success_recaptcha']) :
+                        ?>
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </symbol>
                             </svg>
-                            <div class="pt-2 px-2">
-                                Correo enviado exitosamente
-                            </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
 
-                        <!-- Cargar el script unicamente cuando se cumpla la condicion -->
-                        <script>
-                        //Desaparecer la alerta despues de 5 segundos
-                        setTimeout(function() {
-                            var alert = document.querySelector(".alert");
-                            alert.classList.add("fade");
-                            alert.addEventListener("transitionend", function() {
-                                alert.remove();
-                            });
-                        }, 5000);
-                        </script>
+                            <div class="alert alert-success d-flex align-items-center mt-2" role="alert" id="successAlert">
+                                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
+                                    <use xlink:href="#check-circle-fill" />
+                                </svg>
+                                <div class="pt-2 px-2">
+                                    Correo enviado exitosamente
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+
+                            <!-- Cargar el script unicamente cuando se cumpla la condicion -->
+                            <script>
+                                //Desaparecer la alerta despues de 5 segundos
+                                setTimeout(function() {
+                                    var alert = document.querySelector(".alert");
+                                    alert.classList.add("fade");
+                                    alert.addEventListener("transitionend", function() {
+                                        alert.remove();
+                                    });
+                                }, 5000);
+                            </script>
 
                         <?php
-              // Limpia la variable de sesión para que no se muestre el modal en futuras visitas
-              unset($_SESSION['success_recaptcha']);
-            endif;
-            ?>
+                            // Limpia la variable de sesión para que no se muestre el modal en futuras visitas
+                            unset($_SESSION['success_recaptcha']);
+                        endif;
+                        ?>
 
 
                         <!-- Titulo de contacto -->
@@ -742,10 +732,7 @@ session_start();
                             <!-- Input nombre -->
                             <div class="form-group">
                                 <label for="nameInput">Nombre</label>
-                                <input style="padding-top: 15px" required type="text" class="form-control black-input"
-                                    id="nameInput" aria-describedby="nameInput" name="name"
-                                    oninvalid="this.setCustomValidity('Introduce tu nombre')"
-                                    oninput="setCustomValidity('')" autocomplete="name" />
+                                <input style="padding-top: 15px" required type="text" class="form-control black-input" id="nameInput" aria-describedby="nameInput" name="name" oninvalid="this.setCustomValidity('Introduce tu nombre')" oninput="setCustomValidity('')" autocomplete="name" />
                             </div>
 
                             <!-- Input correo y celular -->
@@ -753,19 +740,13 @@ session_start();
                                 <div class="col">
                                     <div class="form-group">
                                         <label for="emailInput">Correo</label>
-                                        <input style="padding-top: 15px" required type="email"
-                                            class="form-control black-input" id="emailInput" name="email"
-                                            oninvalid="this.setCustomValidity('Introduce tu correo')"
-                                            oninput="setCustomValidity('')" autocomplete="email" />
+                                        <input style="padding-top: 15px" required type="email" class="form-control black-input" id="emailInput" name="email" oninvalid="this.setCustomValidity('Introduce tu correo')" oninput="setCustomValidity('')" autocomplete="email" />
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-group">
                                         <label for="phoneInput">Celular</label>
-                                        <input style="padding-top: 15px" required type="text"
-                                            class="form-control black-input" id="phoneInput" name="phone"
-                                            oninvalid="this.setCustomValidity('Introduce tu numero celular')"
-                                            oninput="setCustomValidity('')" autocomplete="phone" />
+                                        <input style="padding-top: 15px" required type="text" class="form-control black-input" id="phoneInput" name="phone" oninvalid="this.setCustomValidity('Introduce tu numero celular')" oninput="setCustomValidity('')" autocomplete="phone" />
                                     </div>
                                 </div>
                             </div>
@@ -773,26 +754,22 @@ session_start();
                             <!-- Input Mensaje -->
                             <div class="form-group mt-3">
                                 <label for="messageInput">Mensaje</label>
-                                <textarea style="padding-top: 15px" class="form-control black-input" id="messageInput"
-                                    rows="2" name="message"></textarea>
+                                <textarea style="padding-top: 15px" class="form-control black-input" id="messageInput" rows="2" name="message"></textarea>
                             </div>
 
                             <!-- Recaptcha -->
-                            <div class="g-recaptcha mt-4" data-sitekey="6LeqmFspAAAAAHrADuvHzFH8uR3P_jpffd-GKx_R"
-                                data-theme="dark" data-callback="enableBtn"></div>
+                            <div class="g-recaptcha mt-4" data-sitekey="6LeqmFspAAAAAHrADuvHzFH8uR3P_jpffd-GKx_R" data-theme="dark" data-callback="enableBtn"></div>
 
                             <!-- Boton de enviar -->
                             <div class="mt-2 d-flex justify-content-end ">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4" value="submit"
-                                    id="buttonSendForm" disabled="disabled">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4" value="submit" id="buttonSendForm" disabled="disabled">
                                     ENVIAR
                                 </button>
                             </div>
                         </form>
 
                         <!-- Icono de pelota -->
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
                     </div>
 
                     <div class="col-md-6"></div>
@@ -813,10 +790,7 @@ session_start();
                         <div class="row">
                             <!-- columna de mapa -->
                             <div class="col-6">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14928.131144997715!2d-103.3884277!3d20.7088932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af9adbe382ef%3A0xa6dce60723948567!2sBounce%20Padel!5e0!3m2!1sen!2smx!4v1705102925272!5m2!1sen!2smx"
-                                    class="container" style="border-radius: 25px" allowfullscreen="" loading="lazy"
-                                    height="250px" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14928.131144997715!2d-103.3884277!3d20.7088932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af9adbe382ef%3A0xa6dce60723948567!2sBounce%20Padel!5e0!3m2!1sen!2smx!4v1705102925272!5m2!1sen!2smx" class="container" style="border-radius: 25px" allowfullscreen="" loading="lazy" height="250px" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                             <!-- Columna de direccion -->
                             <div class="col-4">
@@ -851,8 +825,7 @@ session_start();
                             </div>
                         </div>
 
-                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"
-                            class="mt-4" onclick="handleClickBall(this)" style="cursor: pointer" />
+                        <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" class="mt-4" onclick="handleClickBall(this)" style="cursor: pointer" />
                     </div>
                 </div>
             </div>
@@ -867,8 +840,7 @@ session_start();
                         <img class="footer-image" src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" />
                     </div>
                     <!-- Menu footer -->
-                    <div
-                        class="col-lg-6 text-center text-white mt-5 d-flex flex-wrap justify-content-space-between navbar-footer">
+                    <div class="col-lg-6 text-center text-white mt-5 d-flex flex-wrap justify-content-space-between navbar-footer">
                         <a href="#whoWeAre" class="flex-grow-1">¿Quiénes somos?</a>
 
                         <!-- Enlace a carousel de instalaciones (Mobile) -->
@@ -910,8 +882,7 @@ session_start();
     </main>
 
     <!-- Script de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
     <!-- Font awesome link -->
