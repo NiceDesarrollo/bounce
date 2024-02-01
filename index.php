@@ -424,7 +424,8 @@ session_start();
         <section>
             <div id="carouselSectionMobile" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <!-- carousel item active-->
+
+                    <!-- Cafetería-->
                     <div class="mobile carousel-item active">
                         <img src="./assets/images/cafeteria.webp" class="d-block w-100 h-100" alt="Cafetería" />
                         <div class="carousel-caption d-flex h-100 align-items-center justify-content-center pt-5">
@@ -444,7 +445,7 @@ session_start();
                         </div>
                     </div>
 
-                    <!-- carousel item -->
+                    <!-- Canchas -->
                     <div class="mobile carousel-item">
                         <img src="./assets/images/canchas.webp" class="d-block w-100 h-100" alt="Cafetería" />
                         <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
@@ -464,12 +465,45 @@ session_start();
                         </div>
                     </div>
 
-                    <!-- carousel item -->
+                    <!-- Vestidores -->
                     <div class="mobile carousel-item">
                         <img src="./assets/images/vestidores.webp" class="d-block w-100 h-100" alt="Cafetería" />
                         <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
                             <div>
                                 <h5 class="mb-4 mt-5">Vestidores</h5>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Cum, unde impedit delectus placeat recusandae suscipit,
+                                    assumenda iusto sapiente officiis autem ad facere deserunt.
+                                    Aut enim sit magnam ut officiis doloribus!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Regaderas-->
+                    <div class="mobile carousel-item">
+                        <img src="./assets/images/regaderas.webp" class="d-block w-100 h-100" alt="Cafetería" />
+                        <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                            <div>
+                                <h5 class="mb-4 mt-5">Regaderas</h5>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Cum, unde impedit delectus placeat recusandae suscipit,
+                                    assumenda iusto sapiente officiis autem ad facere deserunt.
+                                    Aut enim sit magnam ut officiis doloribus!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Estacionamiento -->
+                    <div class="mobile carousel-item">
+                        <img src="./assets/images/estacionamiento.webp" class="d-block w-100 h-100" alt="Cafetería" />
+                        <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                            <div>
+                                <h5 class="mb-4 mt-5">Estacionamiento</h5>
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                     Cum, unde impedit delectus placeat recusandae suscipit,
@@ -508,11 +542,11 @@ session_start();
                         <p>12:00 - 16:00: Tarifa $600</p>
                         <p>16:00 - 18:00: Tarifa $800</p>
                         <p>18:00 - 22:30: Tarifa $1,000</p>
-                        <p class="mb-5 mt-5">En Bounce Padel siempre encontrarás la mejor tarifa para disfrutar del pádel con amigos.</p>
+                        <p class="mb-5 mt-5">En Bounce Padel siempre encontrarás la mejor tarifa para disfrutar del
+                            pádel con amigos.</p>
 
-                        <a href="#services" >
-                            <button type="submit" class="btn btn-primary btn-sm button-form px-4"
-                                id="buttonSendForm">
+                        <a href="#services">
+                            <button type="submit" class="btn btn-primary btn-sm button-form px-4">
                                 ¡RESERVAR AQUI!
                             </button>
                         </a>

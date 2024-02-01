@@ -119,7 +119,10 @@ if (nextIcon) {
     }, 500);
   });
 }
-
+//**Deshabilitar el boton de envio del formulario */
 function enableBtn() {
-  document.getElementById("buttonSendForm").disabled = false;
+  // Obtén el botón por su ID
+  var buttonSendForm = document.getElementById("buttonSendForm");
+  // Habilita el botón
+  buttonSendForm.disabled = false;
 }

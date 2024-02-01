@@ -55,8 +55,6 @@ p {
   text-decoration: underline;
 }
 
-
-
 .navbar-logo {
   margin-left: 15px;
 }
@@ -183,13 +181,13 @@ p {
   height: 85vh;
 }
 
-.book-here-link{
+.book-here-link {
   font-weight: 100;
   text-decoration: none;
   color: #a5d15f;
 }
 
-.book-here-link:hover{
+.book-here-link:hover {
   text-decoration: underline;
 }
 
@@ -525,23 +523,9 @@ p {
   display: none !important;
 }
 
-/* Mostrar en pantallas medianas y más grandes */
-@media (min-width: 990px) {
-  .gallery-desktop {
-    display: grid !important;
-  }
-}
-
 /* Ocultar en todas las pantallas por defecto */
 .text-desktop {
   display: none !important;
-}
-
-/* Mostrar en pantallas medianas y más grandes */
-@media (min-width: 990px) {
-  .text-desktop {
-    display: block !important;
-  }
 }
 
 @keyframes bounce {
@@ -573,7 +557,51 @@ p {
   z-index: 99999999;
 }
 
+/* Mostrar en pantallas grandes */
+@media (min-width: 2200px) {
+  /**Quienes somos*/
+  .who-we-are-image-background {
+    width: 100%;
+    height: 900px;
+  }
 
+  /**Servicios*/
+  .services-image-background {
+    height: 900px;
+  }
+
+  /**Tienda*/
+  .shop-image-background {
+    height: 900px;
+  }
+
+  /**Academia*/
+  .academy-image-background {
+    height: 900px;
+  }
+
+  /**Torneo*/
+  .tournament-image-background {
+    height: 900px;
+  }
+
+  /**Contacto*/
+  .contact-image-background {
+    height: 900px;
+  }
+
+  /**Ubicacion*/
+  .ubication-image-background {
+    height: 900px;
+  }
+}
+
+/* Mostrar en pantallas medianas y más grandes */
+@media (min-width: 990px) {
+  .text-desktop {
+    display: block !important;
+  }
+}
 
 /**Estilos para dispositivos moviles*/
 @media only screen and (max-width: 600px) {
