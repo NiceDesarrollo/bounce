@@ -542,7 +542,7 @@ session_start();
                         <p>12:00 - 16:00: Tarifa $600</p>
                         <p>16:00 - 18:00: Tarifa $800</p>
                         <p>18:00 - 22:30: Tarifa $1,000</p>
-                        <p class="mb-5 mt-5">En Bounce Padel siempre encontrarás la mejor tarifa para disfrutar del
+                        <p class="mb-5 mt-5 text-service-desktop">En Bounce Padel siempre encontrarás la mejor tarifa para disfrutar del
                             pádel con amigos.</p>
 
                         <a href="#services">

@@ -621,6 +621,9 @@ p {
   .text-desktop {
     display: block !important;
   }
+  .text-service-desktop{
+    padding-left: 1vh;
+  }
 }
 
 /**Estilos para dispositivos moviles*/
