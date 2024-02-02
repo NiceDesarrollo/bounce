@@ -275,7 +275,7 @@ p {
 }
 .navbar-footer a {
   text-decoration: none;
-  padding: 10px;
+  padding: 0px;
   color: #bababa;
   font-family: Arial;
   font-weight: 900;
@@ -733,6 +733,10 @@ p {
   }
   .footer-image {
     max-width: 100%;
+  }
+
+  .navbar-footer a {
+    padding: 10px;
   }
 
   /**Galeria*/

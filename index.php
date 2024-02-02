@@ -810,17 +810,15 @@ session_start();
                                 <p>info@padel.com.mx</p>
                             </div>
                             <!-- columna de redes sociales -->
-                            <div class="col-2">
-                                <a href="#" class="custom-link">
-                                    <i class="fa-brands fa-instagram fa-2xl my-4"></i>
+                            <div class="col-2 d-flex flex-column align-items-center">
+                                <a href="#" class="custom-link mt-5">
+                                    <i class="fa-brands fa-instagram fa-2xl"></i>
                                 </a>
-                                <br />
-                                <a href="#" class="custom-link">
-                                    <i class="fa-brands fa-facebook fa-2xl my-5"></i>
+                                <a href="#" class="custom-link mt-5">
+                                    <i class="fa-brands fa-facebook fa-2xl"></i>
                                 </a>
-                                <br />
-                                <a href="#" class="custom-link">
-                                    <i class="fa-brands fa-youtube fa-2xl mt-5"></i>
+                                <a href="#" class="custom-link mt-5">
+                                    <i class="fa-brands fa-youtube fa-2xl"></i>
                                 </a>
                             </div>
                         </div>
@@ -840,7 +838,7 @@ session_start();
                         <img class="footer-image" src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" />
                     </div>
                     <!-- Menu footer -->
-                    <div class="col-lg-6 text-center text-white mt-5 d-flex flex-wrap justify-content-space-between navbar-footer">
+                    <div class="col-lg-6 text-center text-white mt-5 d-flex flex-wrap navbar-footer">
                         <a href="#whoWeAre" class="flex-grow-1">¿Quiénes somos?</a>
 
                         <!-- Enlace a carousel de instalaciones (Mobile) -->
@@ -853,7 +851,7 @@ session_start();
                         <a href="#shop" class="flex-grow-1">Tienda</a>
                         <a href="#contact" class="flex-grow-1">Contactanos</a>
                         <a href="#ubication" class="flex-grow-1">Ubicación</a>
-                        <a href="galery.html">Galería</a>
+                        <a href="galery.html" class="flex-grow-1">Galería</a>
                     </div>
 
                     <!-- Redes sociales Iconos -->
@@ -876,8 +874,6 @@ session_start();
                 </div>
             </footer>
         </section>
-
-
 
     </main>
 
