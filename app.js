@@ -44,11 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
     var buttonReservation = document.getElementById("buttonReservation");
     
     if (buttonSendForm) {
-      buttonSendForm.style.paddingTop = "1.5vh";
+      buttonSendForm.style.paddingTop = "1.4vh";
     }
 
     if (buttonReservation) {
-      buttonReservation.style.paddingTop = "1.5vh";
+      buttonReservation.style.paddingTop = "1.4vh";
     }
   }
 });

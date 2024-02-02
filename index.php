@@ -162,7 +162,7 @@ session_start();
     </style>
 
     <!-- Titulo del tab -->
-    <title>bounce</title>
+    <title>Bounce padel</title>
 </head>
 
 <body style="background-color: black">
@@ -556,26 +556,27 @@ session_start();
             </div>
         </section>
 
-        <!-- Tienda -->
+        <!-- Torneo -->
         <section>
-            <div id="shop" class="bg-image shop-image-background">
+            <div id="shop" class="bg-image  tournament-image-background">
                 <div class="row">
                     <div class="col-md-6 text-center text-white pr-3"></div>
                     <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
-                        <h2 class="mt-5 mt-md-5">Tienda</h2>
-                        <h3 class="mt-5">Venta de artículos deportivos</h3>
+                        <h2 class="mt-5 mt-md-5">Torneo</h2>
+
                         <!-- Mobile text -->
                         <p class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
-                            Encuentra todo lo que necesitas para mejorar tu juego. Desde raquetas hasta calzado,
-                            nuestros expertos te ayudarán a elegir lo mejor para ti. ¡Prepárate para brillar en la
-                            cancha con nosotros!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis delectus non esse reiciendis
+                            totam harum quaerat sit expedita, earum sequi in? Blanditiis voluptatibus exercitationem
+                            iste esse voluptas omnis ad obcaecati!
                         </p>
                         <!-- pc text -->
                         <p class="mt-5 justify-text text-desktop" style="padding-right: 55px; padding-left: 55px">
-                            Encuentra todo lo que necesitas para mejorar tu juego. Desde raquetas hasta calzado,
-                            nuestros expertos te ayudarán a elegir lo mejor para ti. ¡Prepárate para brillar en la
-                            cancha con nosotros!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod autem mollitia
+                            quasi quos possimus blanditiis accusamus. Beatae mollitia libero illum id a voluptatem!
+                            Repellat error mollitia reiciendis laudantium incidunt.
                         </p>
+
 
                         <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
                     </div>
@@ -613,24 +614,25 @@ session_start();
         </section>
 
 
-        <!-- Torneos -->
+        <!-- Tienda -->
         <section>
-            <div id="shop" class="bg-image tournament-image-background">
+            <div id="shop" class="bg-image shop-image-background">
                 <div class="row">
                     <div class="col-md-6 text-center text-white pr-3"></div>
                     <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
-                        <h2 class="mt-5 mt-md-5">Torneos</h2>
+                        <h2 class="mt-5 mt-md-5">Tienda</h2>
+                        <h3 class="mt-5">Venta de artículos deportivos</h3>
                         <!-- Mobile text -->
                         <p class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis delectus non esse reiciendis
-                            totam harum quaerat sit expedita, earum sequi in? Blanditiis voluptatibus exercitationem
-                            iste esse voluptas omnis ad obcaecati!
+                            Encuentra todo lo que necesitas para mejorar tu juego. Desde raquetas hasta calzado,
+                            nuestros expertos te ayudarán a elegir lo mejor para ti. ¡Prepárate para brillar en la
+                            cancha con nosotros!
                         </p>
                         <!-- pc text -->
                         <p class="mt-5 justify-text text-desktop" style="padding-right: 55px; padding-left: 55px">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod autem mollitia
-                            quasi quos possimus blanditiis accusamus. Beatae mollitia libero illum id a voluptatem!
-                            Repellat error mollitia reiciendis laudantium incidunt.
+                            Encuentra todo lo que necesitas para mejorar tu juego. Desde raquetas hasta calzado,
+                            nuestros expertos te ayudarán a elegir lo mejor para ti. ¡Prepárate para brillar en la
+                            cancha con nosotros!
                         </p>
 
                         <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
