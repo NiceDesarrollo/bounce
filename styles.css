@@ -523,13 +523,6 @@ p {
   display: none !important;
 }
 
-/* Mostrar en pantallas medianas y más grandes */
-@media (min-width: 990px) {
-  .gallery-desktop {
-    display: grid !important;
-  }
-}
-
 /* Ocultar en todas las pantallas por defecto */
 .text-desktop {
   display: none !important;
@@ -615,6 +608,13 @@ p {
   }
   .text-service-desktop {
     padding-left: 1vh;
+  }
+  .gallery-desktop {
+    display: grid !important;
+  }
+
+  .navbar-right a {
+    padding: 40px;
   }
 }
 
