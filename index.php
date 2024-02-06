@@ -87,6 +87,24 @@ session_start();
         }
     </script>
 
+    <!-- Datos estructurados para "Regaderas" -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Showers",
+            "description": "Regaderas modernas y totalmente equipadas en Bounce Padel. Funcionalidad y comodidad para prepararte y relajarte después de tu juego."
+        }
+    </script>
+
+    <!-- Datos estructurados para "Estacionamiento" -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Parking",
+            "description": "Disfruta de una experiencia sin preocupaciones en Bounce Padel con nuestro estacionamiento privado. Ofrecemos un lugar conveniente para estacionar tu vehículo."
+        }
+    </script>
+
     <!-- Datos estructurados para "Espacios" -->
     <script type="application/ld+json">
         {
@@ -105,21 +123,30 @@ session_start();
         }
     </script>
 
+    <!-- Datos estructurados para "Torneo" -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Tournament",
+            "description": "Desde torneos informales hasta eventos profesionales, estamos aquí para hacer realidad tu visión de un emocionante día de pádel."
+        }
+    </script>
+
+    <!-- Datos estructurados para "Academia" -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Academy",
+            "description": "En nuestra academia de Pádel ofrecemos programas diseñados para todos los niveles, desde principiantes hasta jugadores experimentados."
+        }
+    </script>
+
     <!-- Datos estructurados para "Tienda" -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "Shop",
             "description": "Encuentra todo lo que necesitas para mejorar tu juego en Bounce Padel. Desde raquetas hasta calzado, nuestros expertos te ayudarán a elegir lo mejor para ti."
-        }
-    </script>
-
-    <!-- Datos estructurados para "Ubicación" -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Location",
-            "description": "Encuéntranos en el corazón de Providencia, Guadalajara, en la calle Alberta 2230, Colonia Colomos Providencia, C.P. 44660. Con una ubicación increíble, Bounce Padel es tu destino para disfrutar del pádel en Guadalajara."
         }
     </script>
 
@@ -132,7 +159,14 @@ session_start();
         }
     </script>
 
-
+    <!-- Datos estructurados para "Ubicación" -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Location",
+            "description": "Encuéntranos en el corazón de Providencia, Guadalajara, en la calle Alberta 2230, Colonia Colomos Providencia, C.P. 44660. Con una ubicación increíble, Bounce Padel es tu destino para disfrutar del pádel en Guadalajara."
+        }
+    </script>
 
 
     <!-- Estilos -->
@@ -366,11 +400,7 @@ session_start();
                                     <div class="text-center">
                                         <h3 class="my-5">Regaderas</h3>
                                         <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Explicabo facilis a labore officiis pariatur ipsam
-                                            perferendis necessitatibus dolorem deserunt enim. Iusto
-                                            eum, minima reprehenderit porro eligendi mollitia illo!
-                                            Vel, illum.
+                                            Contamos con regaderas modernas totalmente equipados para tu comodidad. Te ofrecemos funcionalidad para relajarte después de tu juego.
                                         </p>
                                     </div>
                                 </div>
@@ -381,11 +411,7 @@ session_start();
                                     <div class="text-center">
                                         <h3 class="my-5">Estacionamiento</h3>
                                         <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Explicabo facilis a labore officiis pariatur ipsam
-                                            perferendis necessitatibus dolorem deserunt enim. Iusto
-                                            eum, minima reprehenderit porro eligendi mollitia illo!
-                                            Vel, illum.
+                                            Contamos con estacionamiento privado para que puedas disfrutar de tu experiencia sin preocupaciones. Un lugar conveniente para estacionar tu vehículo, asegurando una llegada y salida sin complicaciones.
                                         </p>
                                     </div>
                                 </div>
@@ -486,10 +512,7 @@ session_start();
                             <div>
                                 <h5 class="mb-4 mt-5">Regaderas</h5>
                                 <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Cum, unde impedit delectus placeat recusandae suscipit,
-                                    assumenda iusto sapiente officiis autem ad facere deserunt.
-                                    Aut enim sit magnam ut officiis doloribus!
+                                    Contamos con regaderas modernas totalmente equipados para tu comodidad. Te ofrecemos funcionalidad para relajarte después de tu juego.
                                 </p>
                             </div>
                         </div>
@@ -503,10 +526,7 @@ session_start();
                             <div>
                                 <h5 class="mb-4 mt-5">Estacionamiento</h5>
                                 <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Cum, unde impedit delectus placeat recusandae suscipit,
-                                    assumenda iusto sapiente officiis autem ad facere deserunt.
-                                    Aut enim sit magnam ut officiis doloribus!
+                                    Contamos con estacionamiento privado para que puedas disfrutar de tu experiencia sin preocupaciones. Un lugar conveniente para estacionar tu vehículo, asegurando una llegada y salida sin complicaciones.
                                 </p>
                             </div>
                         </div>
@@ -565,17 +585,25 @@ session_start();
                         <h2 class="mt-5 mt-md-5">Torneo</h2>
 
                         <!-- Mobile text -->
-                        <p class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis delectus non esse reiciendis
-                            totam harum quaerat sit expedita, earum sequi in? Blanditiis voluptatibus exercitationem
-                            iste esse voluptas omnis ad obcaecati!
-                        </p>
+                        <div class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
+                            <h5>
+                                ¡Organiza tu propio torneo de pádel con nosotros y lleva la competencia al siguiente nivel!
+                            </h5>
+                            <p>
+                                Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los nivele. Contáctanos vía WhatsApp.
+                            </p>
+                        </div>
+
                         <!-- pc text -->
-                        <p class="mt-5 justify-text text-desktop" style="padding-right: 55px; padding-left: 55px">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod autem mollitia
-                            quasi quos possimus blanditiis accusamus. Beatae mollitia libero illum id a voluptatem!
-                            Repellat error mollitia reiciendis laudantium incidunt.
-                        </p>
+                        <div class="mt-5 justify-text text-desktop" style="padding-right: 55px; padding-left: 55px">
+                            <h5>
+                                ¡Organiza tu propio torneo de pádel con nosotros y lleva la competencia al siguiente nivel!
+                            </h5>
+                            <p>
+                                Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los nivele. Contáctanos vía WhatsApp.
+                            </p>
+                        </div>
+
 
 
                         <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
@@ -592,18 +620,28 @@ session_start();
                         <h2 class="mt-5 mt-md-5">Academia</h2>
 
                         <!-- Mobile text -->
-                        <p class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores illo iusto, saepe
-                            rem fugiat quo, non et quos aperiam beatae consequuntur nesciunt eius iste cumque.
-                            Blanditiis fugit sed fuga!
-                        </p>
+                        <div class="d-lg-none text-center" style="padding-right: 55px; padding-left: 55px">
+                            <h5>
+                                ¡Descubre el mundo del pádel en nuestra academia!
+
+                            </h5>
+                            <p>
+                                Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física. Consulta los horarios disponibles vía WhatsApp.
+                            </p>
+                        </div>
+
 
                         <!-- pc text -->
-                        <p class="mt-5 justify-text text-desktop" style="padding-right: 55px; padding-left: 55px">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis illum, ratione non veniam
-                            ullam nihil libero quo accusamus dolorum eaque tempora accusantium, maiores magni ab id
-                            officia earum temporibus nemo?
-                        </p>
+                        <div class="justify-text text-desktop text-center" style="padding-right: 55px; padding-left: 55px">
+                            <h5>
+                                ¡Descubre el mundo del pádel en nuestra academia!
+
+                            </h5>
+                            <p>
+                                Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física. Consulta los horarios disponibles vía WhatsApp.
+                            </p>
+                        </div>
+
 
                         <!-- Imagen de la pelota amarilla -->
                         <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
