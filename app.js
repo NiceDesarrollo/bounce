@@ -31,25 +31,34 @@ document.addEventListener("DOMContentLoaded", function () {
       case 3:
         imageElement.src = "./assets/images/regaderas.webp";
         break;
-        case 4:
-          imageElement.src = "./assets/images/estacionamiento.webp";
-          break;
+      case 4:
+        imageElement.src = "./assets/images/estacionamiento.webp";
+        break;
     }
   }
 
   //* Aplicar estilo específico si es macOS
   var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
-  if (isMac) {
-    var buttonSendForm = document.getElementById("buttonSendForm");
-    var buttonReservation = document.getElementById("buttonReservation");
-    
-    if (buttonSendForm) {
-      buttonSendForm.style.paddingTop = "1.4vh";
-    }
 
-    if (buttonReservation) {
-      buttonReservation.style.paddingTop = "1.4vh";
-    }
+  if (isMac) {
+    applyStylePaddingTop(["buttonSendForm", "buttonReservation"], "1.4vh");
+    applyStylePaddingTop(
+      [
+        "whatsappIconAcademy",
+        "whatsappIconAcademyMobile",
+        "whatsappIconTournament",
+      ],
+      "1vh"
+    );
+  }
+
+  function applyStylePaddingTop(elementIds, paddingTopValue) {
+    elementIds.forEach(function (id) {
+      var element = document.getElementById(id);
+      if (element) {
+        element.style.paddingTop = paddingTopValue;
+      }
+    });
   }
 });
 

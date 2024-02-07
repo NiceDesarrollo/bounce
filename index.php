@@ -596,7 +596,7 @@ session_start();
                             <br>
 
                             <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola.">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2" id="buttonReservation">
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
                                 </button>
                             </a>
@@ -618,8 +618,8 @@ session_start();
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2">
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournament"></i>
                                 </button>
                             </a>
 
@@ -654,8 +654,8 @@ session_start();
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2" >
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconAcademyMobile"></i>
                                 </button>
                             </a>
 
@@ -677,8 +677,8 @@ session_start();
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2">
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconAcademy" ></i>
                                 </button>
                             </a>
                         </div>
