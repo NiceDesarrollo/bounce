@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
 
   if (isMac) {
-    applyStylePaddingTop(["buttonSendForm", "buttonReservation"], "14px");
+    applyStylePaddingTop(["buttonSendForm", "buttonReservation"], "12px");
     applyStylePaddingTop(
       [
         "whatsappIconAcademy",
@@ -57,7 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
       var element = document.getElementById(id);
       if (element) {
         element.style.paddingTop = paddingTopValue;
-        element.style.paddingBottom = paddingTopValue;
       }
     });
   }
