@@ -16,12 +16,12 @@ session_start();
     <meta name="author" content="Nice" />
     <meta http-equiv="content-language" content="es" />
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://nicedesarrollo.github.io/bounce" />
+    <link rel="canonical" href="http://www.bounce.000.pe/index.php" />
     <meta property="og:title" content="Bounce Padel: Pasión por el Pádel en el corazón de Guadalajara" />
     <meta property="og:description" content="Nos apasiona el pádel y nuestro objetivo es construir una comunidad para todos los amantes del pádel. Ofrecemos un espacio exclusivo donde jugadores de todos los niveles pueden aprender, ejercitarse y disfrutar con amigos y familiares. " />
     <meta property="og:image" content="./assets/Bounce_Blanco.png" />
     <meta property="og:image:alt" content="Pasión por el Pádel en el corazón de Guadalajara">
-    <meta property="og:url" content="https://nicedesarrollo.github.io/bounce" />
+    <meta property="og:url" content="http://www.bounce.000.pe/index.php" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@tuusuario">
@@ -862,9 +862,9 @@ session_start();
         <section>
             <div id="ubication" class="bg-image ubication-image-background">
                 <div class="row">
-                    <div class="col-md-6"></div>
+                    <div class="col-lg-6"></div>
 
-                    <div class="col-md-6 text-white mt-5 text-center ubication-col">
+                    <div class="col-lg-6 text-white mt-5 text-center">
                         <!-- Titulo de Ubicación -->
                         <h2 class="mt-5 mt-md-5 mb-5">Ubicación</h2>
                         <!-- Columnas de Ubicación -->

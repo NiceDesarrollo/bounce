@@ -251,9 +251,6 @@ p {
   background-position: center; /** Centra la imagen */
   height: 85vh;
 }
-.ubication-col {
-  padding-right: 200px !important;
-}
 
 /**Estilos de los iconos de redes sociales*/
 .custom-link {
@@ -638,7 +635,7 @@ p {
 }
 
 /**Estilos para dispositivos moviles*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   /** Navegacion */
   .navigation {
     padding: 10px;
@@ -739,9 +736,6 @@ p {
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
   }
-  .ubication-col {
-    padding-right: 25px !important;
-  }
 
   /**Footer*/
   /** Centrar la imagen dentro del media query */
@@ -815,8 +809,5 @@ p {
   /**Ubicacion*/
   .ubication-image-background {
     height: 95vh;
-  }
-  .ubication-col {
-    padding-right: 20px !important;
   }
 }
