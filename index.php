@@ -590,22 +590,42 @@ session_start();
                                 ¡Organiza tu propio torneo de pádel con nosotros y lleva la competencia al siguiente nivel!
                             </h5>
                             <p>
-                                Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los nivele. Contáctanos vía WhatsApp.
+                                Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los niveles.
                             </p>
+                            <h5>Contáctanos vía WhatsApp.</h5>
+                            <br>
+
+                            <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola.">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                                </button>
+                            </a>
+
                         </div>
 
+                        <br>
+
                         <!-- pc text -->
-                        <div class="mt-5 justify-text text-desktop" style="padding-right: 55px; padding-left: 55px">
+                        <div class="mt-5 justify-text text-desktop text-center" style="padding-right: 55px; padding-left: 55px">
                             <h5>
                                 ¡Organiza tu propio torneo de pádel con nosotros y lleva la competencia al siguiente nivel!
                             </h5>
                             <p>
-                                Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los nivele. Contáctanos vía WhatsApp.
+                                Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los niveles.
                             </p>
+
+                            <h5>Contáctanos vía WhatsApp.</h5>
+                            <br>
+
+                            <a href="#services">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                                </button>
+                            </a>
+
                         </div>
 
-
-
+                        <br>
                         <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
                     </div>
                 </div>
@@ -616,33 +636,54 @@ session_start();
         <section>
             <div id="whoWeAre" class="bg-image academy-image-background">
                 <div class="row">
-                    <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
-                        <h2 class="mt-5 mt-md-5">Academia</h2>
+                    <div class="col-md-6 text-center text-white mt-5 text-content-info">
+                        <h2 class="mt-5">Academia</h2>
 
                         <!-- Mobile text -->
-                        <div class="d-lg-none text-center" style="padding-right: 55px; padding-left: 55px">
+                        <div class="mt-5 d-lg-none text-center" style="padding-right: 55px; padding-left: 55px">
                             <h5>
                                 ¡Descubre el mundo del pádel en nuestra academia!
 
                             </h5>
                             <p>
-                                Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física. Consulta los horarios disponibles vía WhatsApp.
+                                Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física.
                             </p>
+
+                            <h5> Consulta los horarios disponibles vía WhatsApp.
+                            </h5>
+                            <br>
+
+                            <a href="#services">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                                </button>
+                            </a>
+
+
                         </div>
 
 
                         <!-- pc text -->
-                        <div class="justify-text text-desktop text-center" style="padding-right: 55px; padding-left: 55px">
+                        <div class="justify-text text-desktop text-center mt-5" style="padding-right: 55px; padding-left: 55px">
                             <h5>
                                 ¡Descubre el mundo del pádel en nuestra academia!
 
                             </h5>
                             <p>
-                                Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física. Consulta los horarios disponibles vía WhatsApp.
+                                Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física.
                             </p>
+                            <h5> Consulta los horarios disponibles vía WhatsApp.
+                            </h5>
+                            <br>
+
+                            <a href="#services">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2" id="buttonReservation">
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                                </button>
+                            </a>
                         </div>
 
-
+                        <br>
                         <!-- Imagen de la pelota amarilla -->
                         <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
                     </div>
@@ -817,8 +858,8 @@ session_start();
             </div>
         </section>
 
+        <!-- Ubicación -->
         <section>
-            <!-- Ubicación -->
             <div id="ubication" class="bg-image ubication-image-background">
                 <div class="row">
                     <div class="col-md-6"></div>
@@ -868,6 +909,13 @@ session_start();
                 </div>
             </div>
         </section>
+
+        <!-- WhatsApp float button -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola." class="float-whatsapp-button" target="_blank">
+            <i class="fa fa-whatsapp whatsapp-float-icon"></i>
+        </a>
 
         <!-- Footer -->
         <section>

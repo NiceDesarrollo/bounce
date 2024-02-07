@@ -30,7 +30,7 @@ p {
   color: #e2dfdf !important;
 }
 
-/**Navegaciòn*/
+/**Navegación*/
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -206,7 +206,7 @@ p {
     url("./assets/images/academia.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 50vh;
+  height: 88vh;
 }
 
 /**Torneo*/
@@ -215,7 +215,7 @@ p {
     url("./assets/images/torneo.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 50vh;
+  height: 80vh;
 }
 
 /**Contacto*/
@@ -262,6 +262,25 @@ p {
 }
 .custom-link:hover {
   color: #00b31b; /** Color azul más oscuro al pasar el ratón sobre el enlace */
+}
+
+/**Boton flotante de whatsapp*/
+.float-whatsapp-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-float-icon {
+  margin-top: 16px;
 }
 
 /**Footer*/
@@ -691,7 +710,7 @@ p {
 
   /**Academia*/
   .academy-image-background {
-    height: 65vh;
+    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -699,7 +718,7 @@ p {
 
   /**Torneo*/
   .tournament-image-background {
-    height: 65vh;
+    height: 90vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -780,12 +799,12 @@ p {
 
   /**Academia*/
   .academy-image-background {
-    height: 80vh;
+    height: 120vh;
   }
 
   /**Torneo*/
   .tournament-image-background {
-    height: 80vh;
+    height: 115vh;
   }
 
   /**Contacto*/
@@ -795,7 +814,7 @@ p {
 
   /**Ubicacion*/
   .ubication-image-background {
-    height: 90vh;
+    height: 95vh;
   }
   .ubication-col {
     padding-right: 20px !important;
