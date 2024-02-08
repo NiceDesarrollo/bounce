@@ -226,7 +226,7 @@ session_start();
 
                     <a href="#services">Servicios</a>
                     <a href="#shop">Tienda</a>
-                    <a href="#contact">Contactanos</a>
+                    <a href="#contact">Contáctanos</a>
                     <a href="#ubication">Ubicación</a>
                     <a href="galery.html">Galería</a>
                 </div>
@@ -277,7 +277,7 @@ session_start();
 
                     <a href="#services">Servicios</a>
                     <a href="#shop">Tienda</a>
-                    <a href="#contact">Contactanos</a>
+                    <a href="#contact">Contáctanos</a>
                     <a href="#ubication">Ubicación</a>
                     <a href="galery.html">Galería</a>
                 </div>
@@ -596,8 +596,8 @@ session_start();
 
                             <a href="#services">
                                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
-                                    CONTACTANOS
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournamentMobile"></i>
+                                    CONTÁCTANOS
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;padding-left: 10px;" id="whatsappIconTournamentMobile" ></i>
                                 </button>
                             </a>
 
@@ -619,8 +619,8 @@ session_start();
 
                             <a href="#services">
                                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
-                                    CONTACTANOS
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournament"></i>
+                                    CONTÁCTANOS
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;padding-left: 10px;" id="whatsappIconTournament"></i>
                                 </button>
                             </a>
 
@@ -655,7 +655,7 @@ session_start();
                             <a href="#services">
                                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                                     CONSULTAR
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconAcademyMobile"></i>
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white; padding-left: 10px;" id="whatsappIconAcademyMobile"></i>
                                 </button>
                             </a>
 
@@ -677,7 +677,7 @@ session_start();
                             <a href="#services">
                                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                                     CONSULTAR
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconAcademy"></i>
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;padding-left: 10px;" id="whatsappIconAcademy"></i>
                                 </button>
                             </a>
                         </div>
@@ -934,7 +934,7 @@ session_start();
 
                         <a href="#services" class="flex-grow-1">Servicios</a>
                         <a href="#shop" class="flex-grow-1">Tienda</a>
-                        <a href="#contact" class="flex-grow-1">Contactanos</a>
+                        <a href="#contact" class="flex-grow-1">Contáctanos</a>
                         <a href="#ubication" class="flex-grow-1">Ubicación</a>
                         <a href="galery.html" class="flex-grow-1">Galería</a>
                     </div>

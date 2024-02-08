@@ -54,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
       {
         paddingTop: "10px",
-        paddingLeft: "10px",
       }
     );
   }
