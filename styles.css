@@ -42,6 +42,13 @@ p {
   padding-left: 100px;
   padding-right: 100px;
 }
+
+.button-book-now {
+  position: absolute;
+  z-index: 99999;
+  top: 40%;
+  left: 40%;
+}
 /**Lista de opciones de navegaciòn*/
 .navbar-right {
   font-size: 12.5px;
@@ -74,6 +81,11 @@ p {
 /** Agregar un estilo para la "x" */
 #hamburger-icon.x {
   font-size: 24px;
+}
+
+.logo-playtomic {
+  width: 41px;
+  height: 43px;
 }
 
 .hero-image-background {
@@ -112,8 +124,16 @@ p {
 
 .center-icon img {
   cursor: pointer;
-  max-width: 100px; /** Ajusta según tus necesidades */
-  max-height: 100px; /** Ajusta según tus necesidades */
+  max-width: 100px; 
+  max-height: 100px;
+}
+
+.book-now-hero{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /**Quienes somos*/
@@ -269,7 +289,7 @@ p {
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
-  color: #FFF;
+  color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;

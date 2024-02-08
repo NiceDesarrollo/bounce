@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (isMac) {
 
-    applyStyles(["buttonSendForm", "buttonReservation"], {
+    applyStyles(["buttonSendForm", "buttonReservation", "buttonBookNow"], {
       paddingTop: "13px",
     });
 
