@@ -41,22 +41,44 @@ document.addEventListener("DOMContentLoaded", function () {
   var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
 
   if (isMac) {
-    applyStylePaddingTop(["buttonSendForm", "buttonReservation"], "12px");
-    applyStylePaddingTop(
+    applyStyles(["buttonSendForm", "buttonReservation"], {
+      paddingTop: "14px",
+    });
+
+    applyStyles(
       [
         "whatsappIconAcademy",
         "whatsappIconAcademyMobile",
         "whatsappIconTournament",
+        "whatsappIconTournamentMobile",
       ],
-      "10px"
+      {
+        paddingTop: "10px",
+        paddingLeft: "10px",
+      }
     );
   }
 
-  function applyStylePaddingTop(elementIds, paddingTopValue) {
+  /**
+   * Applies multiple styles to a list of elements.
+   *
+   * @param {Array} elementIds - An array of element IDs to which the styles will be applied.
+   * ['id1','id2','id3',.....]
+   * @param {Object} styles - An object where the keys are the style properties and the values are the style values.
+   * {color: 'red', position: 'absoulute', ....}
+   */
+  function applyStyles(elementIds, styles) {
+    // Iterate over each element ID
     elementIds.forEach(function (id) {
+      // Get the element by its ID
       var element = document.getElementById(id);
+      // If the element exists
       if (element) {
-        element.style.paddingTop = paddingTopValue;
+        // Iterate over each style property in the styles object
+        for (var styleProperty in styles) {
+          // Apply the style to the element
+          element.style[styleProperty] = styles[styleProperty];
+        }
       }
     });
   }

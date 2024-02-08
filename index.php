@@ -595,9 +595,9 @@ session_start();
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-2 py-2">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                                     CONTACTANOS
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournament"></i>
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournamentMobile"></i>
                                 </button>
                             </a>
 
@@ -616,8 +616,9 @@ session_start();
 
                             <br>
 
+
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-2  py-2">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                                     CONTACTANOS
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournament"></i>
                                 </button>
