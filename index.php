@@ -356,7 +356,7 @@ session_start();
                                     <div class="text-center">
                                         <h3 class="my-5">Cafetería</h3>
                                         <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
-                                            Cafeto Snack&Bar, un lugar para relajarse y compartir momentos después del
+                                            Cafeto Snack & Bar, un lugar para relajarse y compartir momentos después del
                                             juego. Te ofrecemos diferentes snacks, desde desayunos saludables hasta
                                             comidas botaneras y bebidas para disfrutar después de un partido de pádel.
                                             Ya sea para celebrar una victoria o reflexionar sobre un partido, nuestra
@@ -400,7 +400,7 @@ session_start();
                                     <div class="text-center">
                                         <h3 class="my-5">Regaderas</h3>
                                         <p class="mt-1 justify-text text-content-info" style="padding-right: 60px; padding-left: 60px">
-                                            Contamos con regaderas modernas totalmente equipados para tu comodidad. Te ofrecemos funcionalidad para relajarte después de tu juego.
+                                            Contamos con regaderas modernas totalmente equipadas para tu comodidad. Te ofrecemos funcionalidad para relajarte después de tu juego.
                                         </p>
                                     </div>
                                 </div>
@@ -512,7 +512,7 @@ session_start();
                             <div>
                                 <h5 class="mb-4 mt-5">Regaderas</h5>
                                 <p>
-                                    Contamos con regaderas modernas totalmente equipados para tu comodidad. Te ofrecemos funcionalidad para relajarte después de tu juego.
+                                    Contamos con regaderas modernas totalmente equipadas para tu comodidad. Te ofrecemos funcionalidad para relajarte después de tu juego.
                                 </p>
                             </div>
                         </div>
@@ -878,7 +878,7 @@ session_start();
                                 <p>
                                     Calle Alberta 2230
                                     <br />
-                                    Col.Colomos Providencia
+                                    Col. Colomos Providencia
                                     <br />
                                     44660
                                     <br />
