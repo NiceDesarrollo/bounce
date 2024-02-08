@@ -909,8 +909,6 @@ session_start();
         </section>
 
         <!-- WhatsApp float button -->
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola." class="float-whatsapp-button" target="_blank">
             <i class="fa fa-whatsapp whatsapp-float-icon"></i>
         </a>
