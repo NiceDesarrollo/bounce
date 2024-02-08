@@ -2,11 +2,6 @@
 
 session_start(); // Inicia la sesión
 
-// require 'vendor/autoload.php';
-
-// use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\Exception;
-
 require "./phpMailer/PhpMailer.php";
 require "./phpMailer/SMTP.php";
 
@@ -26,7 +21,6 @@ $recaptcha_data = json_decode($recaptcha);
 if ($recaptcha_data->success) {
     //* El reCAPTCHA se ha verificado correctamente, procede con el procesamiento del formulario
     $phpmailer = new PHPMailer\PHPMailer\PHPMailer();
-    // $phpmailer = new PHPMailer();
     $phpmailer->isSMTP();
     $phpmailer->Host = 'sandbox.smtp.mailtrap.io';
     $phpmailer->SMTPAuth = true;
