@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       paddingTop: "13px",
     });
 
+    //*Estilos para el boton del hero.
     applyStyles(['buttonBookNow'], {paddingTop: "20px"})
 
     applyStyles(
