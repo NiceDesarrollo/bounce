@@ -46,9 +46,11 @@ p {
 .button-book-now {
   position: absolute;
   z-index: 99999;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 /**Lista de opciones de navegaciòn*/
 .navbar-right {
   font-size: 12.5px;
