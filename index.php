@@ -227,7 +227,7 @@ session_start();
     <title>Bounce padel</title>
   </head>
 
-  <body style="background-color: #0f1f0fe9">
+  <body style="background-color: black">
     <!-- header -->
     <header>
       <!-- Título oculto para lectores de pantalla -->
@@ -405,7 +405,9 @@ session_start();
           />
           Tu navegador no soporta el elemento de video.
         </video>
+
       </div>
+
     </header>
 
     <!-- Contenido principal -->
