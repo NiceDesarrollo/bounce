@@ -358,7 +358,7 @@ session_start();
             "
           >
             <div class="d-flex align-items-center" id="timer">
-              <p class="mb-0" style="padding-right: 10px">RESERVAR AHORA</p>
+              <p id="bookNowText" class="mb-0" style="padding-right: 10px">RESERVAR AHORA</p>
               <svg
                 class="logo-playtomic"
                 id="Layer_1"
