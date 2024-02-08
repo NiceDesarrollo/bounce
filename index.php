@@ -216,7 +216,6 @@ session_start();
                     <span style="color: white" id="hamburger-icon">&#9776;</span>
                 </div>
                 <div class="navbar-right text-center">
-                    <a href="#whoWeAre">¿Quiénes somos?</a>
 
                     <!-- Enlace a carousel de instalaciones (Mobile) -->
                     <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
@@ -267,7 +266,6 @@ session_start();
                     <span style="color: white" id="hamburger-icon">&#9776;</span>
                 </div>
                 <div class="navbar-right text-center">
-                    <a href="#whoWeAre">¿Quiénes somos?</a>
 
                     <!-- Enlace a carousel de instalaciones (Mobile) -->
                     <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
@@ -593,9 +591,10 @@ session_start();
                                 Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los niveles.
                             </p>
                             <br>
+                            
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 pb-2">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                                     CONTÁCTANOS
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;padding-left: 10px;" id="whatsappIconTournamentMobile" ></i>
                                 </button>
@@ -617,8 +616,9 @@ session_start();
                             <br>
 
 
+
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 pb-2">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                                     CONTÁCTANOS
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;padding-left: 10px;" id="whatsappIconTournament"></i>
                                 </button>
