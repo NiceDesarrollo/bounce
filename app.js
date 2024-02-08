@@ -41,8 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
   var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
 
   if (isMac) {
+
     applyStyles(["buttonSendForm", "buttonReservation"], {
-      paddingTop: "14px",
+      paddingTop: "13px",
     });
 
     applyStyles(
@@ -53,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "whatsappIconTournamentMobile",
       ],
       {
-        paddingTop: "10px",
+        paddingTop: "6px",
       }
     );
   }
@@ -81,6 +82,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+  
 });
 
 //*Navegación

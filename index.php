@@ -561,7 +561,7 @@ session_start();
                         <p class="mb-5 mt-5 text-service-desktop">En Bounce Padel siempre encontrarás la mejor tarifa para disfrutar del
                             pádel con amigos.</p>
 
-                        <a href="#services">
+                        <a href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
                             <button type="submit" class="btn btn-primary btn-sm button-form px-2" id="buttonReservation">
                                 ¡RESERVAR AQUI!
                             </button>
@@ -595,7 +595,7 @@ session_start();
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 pb-2">
                                     CONTÁCTANOS
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;padding-left: 10px;" id="whatsappIconTournamentMobile" ></i>
                                 </button>
@@ -618,7 +618,7 @@ session_start();
 
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 pb-2">
                                     CONTÁCTANOS
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;padding-left: 10px;" id="whatsappIconTournament"></i>
                                 </button>
