@@ -562,7 +562,7 @@ session_start();
                             pádel con amigos.</p>
 
                         <a href="#services">
-                            <button type="submit" class="btn btn-primary btn-sm button-form px-4" id="buttonReservation">
+                            <button type="submit" class="btn btn-primary btn-sm button-form px-2" id="buttonReservation">
                                 ¡RESERVAR AQUI!
                             </button>
                         </a>
@@ -592,12 +592,12 @@ session_start();
                             <p>
                                 Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los niveles.
                             </p>
-                            <h5>Contáctanos vía WhatsApp.</h5>
                             <br>
 
-                            <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola.">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2" id="buttonReservation">
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;"></i>
+                            <a href="#services">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-2 py-2">
+                                    CONTACTANOS
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournament"></i>
                                 </button>
                             </a>
 
@@ -614,11 +614,11 @@ session_start();
                                 Ya sea que estés buscando una experiencia emocionante con amigos, compañeros de trabajo o competidores profesionales, nuestro centro ofrece las instalaciones perfectas para celebrar torneos de todos los niveles.
                             </p>
 
-                            <h5>Contáctanos vía WhatsApp.</h5>
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2">
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-2  py-2">
+                                    CONTACTANOS
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconTournament"></i>
                                 </button>
                             </a>
@@ -649,12 +649,11 @@ session_start();
                                 Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física.
                             </p>
 
-                            <h5> Consulta los horarios disponibles vía WhatsApp.
-                            </h5>
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2" >
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
+                                    CONSULTAR
                                     <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconAcademyMobile"></i>
                                 </button>
                             </a>
@@ -672,13 +671,12 @@ session_start();
                             <p>
                                 Ya seas un principiante que busca dominar las técnicas básicas o un jugador experimentado que quiere perfeccionar su juego, nuestra academia ofrece programas diseñados para todos los niveles. Nuestros entrenadores altamente capacitados te guiarán paso a paso, ayudándote a mejorar tu técnica, estrategia y condición física.
                             </p>
-                            <h5> Consulta los horarios disponibles vía WhatsApp.
-                            </h5>
                             <br>
 
                             <a href="#services">
-                                <button type="submit" class="btn btn-primary btn-sm button-form px-5 py-2">
-                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconAcademy" ></i>
+                                <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
+                                    CONSULTAR
+                                    <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white;" id="whatsappIconAcademy"></i>
                                 </button>
                             </a>
                         </div>
