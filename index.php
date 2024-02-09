@@ -200,7 +200,7 @@ session_start();
 
 <body style="background-color: black">
   <!-- header -->
-  <header>
+  <header id="hero">
     <!-- Título oculto para lectores de pantalla -->
     <h1 class="sr-only">Bounce Padel</h1>
 
@@ -208,7 +208,7 @@ session_start();
     <div class="bg-image hero-image-background d-md-none">
       <!-- Navegación-->
       <nav class="navigation py-3">
-        <a href="index.php" class="navbar-logo">
+        <a href="#hero" class="navbar-logo">
           <img src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" loading="lazy" />
         </a>
         <div class="navbar-hamburger" onclick="toggleMenu()">
@@ -271,7 +271,7 @@ session_start();
     <div class="hero-desktop-loading hero-image-background-desktop d-none d-md-block">
       <!-- Navegación-->
       <nav class="navigation py-3">
-        <a href="index.php" class="navbar-logo flex-start">
+        <a href="#hero" class="navbar-logo flex-start">
           <img src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" loading="lazy" />
         </a>
         <div class="navbar-hamburger" onclick="toggleMenu()">
@@ -960,15 +960,15 @@ session_start();
         <div class="row px-4">
 
           <!--Reservar ahora mobile-->
-          <div class="text-center mt-4 footer-reservation-link d-md-block d-lg-none">
+          <div class="mt-4 footer-reservation-link d-md-block d-lg-none">
             <a class="d-flex justify-content-center align-items-center " href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
               text-decoration: none;
               font-size: 13px;
             ">
-              <p id="bookNowText" class="mb-0" style="padding-right: 10px">
+              <p style="margin-right: 10px; margin-left: 23px;" class="mb-0">
                 Reservar ahora
               </p>
-              <svg class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
+              <svg style="padding: 0"  class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
                 <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
                 <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z">
                 </path>
