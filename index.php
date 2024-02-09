@@ -239,7 +239,7 @@ session_start();
           <a href="#shop">Tienda</a>
           <a href="#contact">Contáctanos</a>
           <a href="#ubication">Ubicación</a>
-          <a href="galery.html">Galería</a>
+          <a href="gallery.html">Galería</a>
         </div>
       </nav>
 
@@ -290,7 +290,7 @@ session_start();
           <a href="#shop">Tienda</a>
           <a href="#contact">Contáctanos</a>
           <a href="#ubication">Ubicación</a>
-          <a href="galery.html">Galería</a>
+          <a href="gallery.html">Galería</a>
 
           <a href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
             Reserva aqui
@@ -965,10 +965,10 @@ session_start();
               text-decoration: none;
               font-size: 13px;
             ">
-              <p style="margin-right: 10px; margin-left: 23px;" class="mb-0">
+              <p id="reservation-now" style="margin-right: 10px; margin-left: 23px;" class="mb-0">
                 Reservar ahora
               </p>
-              <svg style="padding: 0"  class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
+              <svg style="padding: 0" class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
                 <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
                 <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z">
                 </path>
@@ -994,7 +994,7 @@ session_start();
             <a href="#shop" class="flex-grow-1 d-flex align-items-center justify-content-center">Tienda</a>
             <a href="#contact" class="flex-grow-1 d-flex align-items-center justify-content-center">Contáctanos</a>
             <a href="#ubication" class="flex-grow-1 d-flex align-items-center justify-content-center">Ubicación</a>
-            <a href="galery.html" class="flex-grow-1 d-flex align-items-center justify-content-center">Galería</a>
+            <a href="gallery.html" class="flex-grow-1 d-flex align-items-center justify-content-center">Galería</a>
 
             <!-- Reservar ahora -->
             <a class="flex-grow-1 d-flex align-items-center justify-content-center d-none d-lg-flex" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">

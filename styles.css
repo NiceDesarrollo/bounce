@@ -366,7 +366,7 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.image-carousel-galery.carousel-item::before {
+.image-carousel-gallery.carousel-item::before {
   content: "";
   position: absolute;
   top: 0;
@@ -767,7 +767,7 @@ p {
   }
 
   /**Galeria*/
-  .image-carousel-galery.carousel-item img {
+  .image-carousel-gallery.carousel-item img {
     max-width: 100%;
     object-fit: fill;
     height: 50vh;

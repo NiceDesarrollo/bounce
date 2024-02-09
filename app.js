@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     //*Estilos para el boton del hero.
-    applyStyles(['buttonBookNow'], {paddingTop: "20px"})
+    applyStyles(['reservation-now', 'reservation-now-gallery'], {paddingTop: "10px"})
 
     applyStyles(
       [
