@@ -216,25 +216,19 @@ session_start();
         </div>
         <div class="navbar-right text-center">
 
-          <!-- Boton de Reservar ahora -->
-          <div class="mt-3">
-            <a class="btn btn-primary" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
-                  text-decoration: none;
-                  font-size: 12.5px;
-                  background-color: #032d948c;
-                ">
-              <div class="d-flex align-items-center">
-                <p id="bookNowText" class="mb-0" style="padding-right: 10px">
-                  RESERVAR AHORA
-                </p>
-                <svg class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
-                  <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
-                  <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z"></path>
-                </svg>
-              </div>
-            </a>
-          </div>
-
+          <a class="d-flex justify-content-center align-items-center" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
+              text-decoration: none;
+              font-size: 13px;
+            ">
+            <p id="bookNowText" class="mb-0" style="padding-right: 10px">
+              Reservar ahora
+            </p>
+            <svg class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
+              <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
+              <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z">
+              </path>
+            </svg>
+          </a>
           <!-- Enlace a carousel de instalaciones (Mobile) -->
           <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
 
@@ -283,7 +277,9 @@ session_start();
         <div class="navbar-hamburger" onclick="toggleMenu()">
           <span style="color: white" id="hamburger-icon">&#9776;</span>
         </div>
-        <div class="navbar-right text-center flex-center">
+        <div class="navbar-right text-center flex-end">
+
+
           <!-- Enlace a carousel de instalaciones (Mobile) -->
           <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
 
@@ -295,24 +291,19 @@ session_start();
           <a href="#contact">Contáctanos</a>
           <a href="#ubication">Ubicación</a>
           <a href="galery.html">Galería</a>
+
+          <a href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
+            Reserva aqui
+            <svg style="margin-left: 5px;" class="logo-playtomic pl-2" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
+              <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
+              <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z">
+              </path>
+            </svg>
+          </a>
+
+
         </div>
 
-        <!-- Boton de Reservar ahora -->
-        <a class="btn btn-primary" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
-              text-decoration: none;
-              font-size: 15px;
-              background-color: #032d948c;
-            ">
-          <div class="d-flex align-items-center">
-            <p id="bookNowText" class="mb-0" style="padding-right: 10px">
-              RESERVAR AHORA
-            </p>
-            <svg class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
-              <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
-              <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z"></path>
-            </svg>
-          </div>
-        </a>
       </nav>
 
       <!-- Boton de reserva aqui-->
@@ -327,6 +318,7 @@ session_start();
         Tu navegador no soporta el elemento de video.
       </video>
     </div>
+
   </header>
 
   <!-- Contenido principal -->
@@ -968,21 +960,19 @@ session_start();
         <div class="row px-4">
 
           <!-- Boton de Reservar ahora -->
-          <div class="text-center mt-3">
-            <a class="btn btn-primary" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
-                  text-decoration: none;
-                  font-size: 15px;
-                  background-color: #032d948c;
-                ">
-              <div class="d-flex align-items-center">
-                <p id="bookNowText" class="mb-0" style="padding-right: 10px">
-                  RESERVAR AHORA
-                </p>
-                <svg class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
-                  <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
-                  <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z"></path>
-                </svg>
-              </div>
+          <div class="text-center mt-4 footer-reservation-link">
+            <a class="d-flex justify-content-center align-items-center " href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
+              text-decoration: none;
+              font-size: 13px;
+            ">
+              <p id="bookNowText" class="mb-0" style="padding-right: 10px">
+                Reservar ahora
+              </p>
+              <svg class="logo-playtomic" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
+                <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
+                <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z">
+                </path>
+              </svg>
             </a>
           </div>
 
@@ -992,7 +982,6 @@ session_start();
           </div>
           <!-- Menu footer -->
           <div class="col-lg-6 text-center text-white mt-5 d-flex flex-wrap navbar-footer">
-            <a href="#whoWeAre" class="flex-grow-1">¿Quiénes somos?</a>
 
             <!-- Enlace a carousel de instalaciones (Mobile) -->
             <a href="#carouselSectionMobile" class="flex-grow-1 d-md-block d-lg-none">Instalaciones</a>
@@ -1031,7 +1020,8 @@ session_start();
   </main>
 
   <!-- Script de bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 
   <!-- Font awesome link -->
   <script src="https://kit.fontawesome.com/3a2bbc5bd5.js" crossorigin="anonymous"></script>
