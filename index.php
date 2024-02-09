@@ -1039,8 +1039,10 @@ session_start();
   <!-- Font awesome link -->
   <script src="https://kit.fontawesome.com/3a2bbc5bd5.js" crossorigin="anonymous"></script>
 
-  <!-- Código javascript -->
+  <!-- Código javascript generico -->
   <script src="app.js"></script>
+  <!-- Código javascript para el carrusel-->
+  <script src="carousel.js"></script>
 </body>
 
 </html>
