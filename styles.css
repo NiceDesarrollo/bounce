@@ -309,10 +309,6 @@ p {
 }
 
 /**Footer*/
-.footer-image {
-  max-width: 300px;
-  height: auto;
-}
 .navbar-footer {
   float: right;
   font-size: 12.5px;
@@ -766,16 +762,6 @@ p {
   }
 
   /**Footer*/
-  /** Centrar la imagen dentro del media query */
-  .footer-image-container {
-    text-align: center; /** Para centrado horizontal */
-    display: flex;
-    align-items: center; /** Para centrado vertical */
-  }
-  .footer-image {
-    max-width: 100%;
-  }
-
   .navbar-footer a {
     padding: 10px;
   }

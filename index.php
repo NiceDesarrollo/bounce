@@ -959,8 +959,8 @@ session_start();
       <footer class="bg-black">
         <div class="row px-4">
 
-          <!-- Boton de Reservar ahora -->
-          <div class="text-center mt-4 footer-reservation-link">
+          <!--Reservar ahora mobile-->
+          <div class="text-center mt-4 footer-reservation-link d-md-block d-lg-none">
             <a class="d-flex justify-content-center align-items-center " href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
               text-decoration: none;
               font-size: 13px;
@@ -977,23 +977,35 @@ session_start();
           </div>
 
           <!-- footer logo -->
-          <div class="col-lg-3 my-3 footer-image-container">
-            <img class="footer-image" src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" />
+          <div class="col-lg-3 my-3 text-center">
+            <img style="max-height: 100px;" class="img-fluid img-lg" src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" />
           </div>
-          <!-- Menu footer -->
-          <div class="col-lg-6 text-center text-white mt-5 d-flex flex-wrap navbar-footer">
 
+
+          <!-- Menu footer -->
+          <div class="col-lg-6  text-white d-flex flex-wrap navbar-footer align-items-center">
             <!-- Enlace a carousel de instalaciones (Mobile) -->
-            <a href="#carouselSectionMobile" class="flex-grow-1 d-md-block d-lg-none">Instalaciones</a>
+            <a href="#carouselSectionMobile" class="flex-grow-1  align-items-center d-md-flex d-lg-none justify-content-center">Instalaciones</a>
 
             <!-- Enlace a carousel de instalaciones (PC) -->
-            <a href="#installationsPC" class="flex-grow-1 d-none d-lg-block">Instalaciones</a>
+            <a href="#installationsPC" class="flex-grow-1  align-items-center d-none d-lg-flex justify-content-center">Instalaciones</a>
 
-            <a href="#services" class="flex-grow-1">Servicios</a>
-            <a href="#shop" class="flex-grow-1">Tienda</a>
-            <a href="#contact" class="flex-grow-1">Contáctanos</a>
-            <a href="#ubication" class="flex-grow-1">Ubicación</a>
-            <a href="galery.html" class="flex-grow-1">Galería</a>
+            <a href="#services" class="flex-grow-1 d-flex align-items-center justify-content-center">Servicios</a>
+            <a href="#shop" class="flex-grow-1 d-flex align-items-center justify-content-center">Tienda</a>
+            <a href="#contact" class="flex-grow-1 d-flex align-items-center justify-content-center">Contáctanos</a>
+            <a href="#ubication" class="flex-grow-1 d-flex align-items-center justify-content-center">Ubicación</a>
+            <a href="galery.html" class="flex-grow-1 d-flex align-items-center justify-content-center">Galería</a>
+
+            <!-- Reservar ahora -->
+            <a class="flex-grow-1 d-flex align-items-center justify-content-center d-none d-lg-flex" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
+              Reserva aquí
+              <svg style="margin-left: 5px;" class="logo-playtomic pl-2" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
+                <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
+                <path class="cls-2" fill="#0e2433" d="M274,120H166.57V332.53h59.35v61.52h48c44.29,0,80.33-33.88,80.33-75.52v-123C354.29,153.84,318.25,120,274,120Zm-8.65,256.79H243.23V271h22.08ZM337,318.6c0,29.38-23.7,53.68-54.37,57.6V332.15c24.29-2.67,47.57-15.88,54.37-32.58ZM337,257c0,29.38-23.7,53.68-54.37,57.6V270.56C306.9,267.89,330.18,254.68,337,238Zm-63-3.32h-48v61.53h-42v-178H274c34.75,0,63,26.12,63,58.22S308.71,253.69,274,253.69Z">
+                </path>
+              </svg>
+            </a>
+
           </div>
 
           <!-- Redes sociales Iconos -->
@@ -1017,6 +1029,7 @@ session_start();
         </div>
       </footer>
     </section>
+
   </main>
 
   <!-- Script de bootstrap -->
