@@ -1,3 +1,53 @@
+//* Aplicar estilo específico si es macOS
+var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+
+if (isMac) {
+  applyStyles(["buttonSendForm", "buttonReservation", "bookNowText"], {
+    paddingTop: "13px",
+  });
+
+  //*Estilos para el boton del hero.
+  applyStyles(["reservation-now", "reservation-now-gallery"], {
+    paddingTop: "10px",
+  });
+
+  applyStyles(
+    [
+      "whatsappIconAcademy",
+      "whatsappIconAcademyMobile",
+      "whatsappIconTournament",
+      "whatsappIconTournamentMobile",
+    ],
+    {
+      paddingTop: "6px",
+    }
+  );
+}
+
+/**
+ * Applies multiple styles to a list of elements.
+ *
+ * @param {Array} elementIds - An array of element IDs to which the styles will be applied.
+ * ['id1','id2','id3',.....]
+ * @param {Object} styles - An object where the keys are the style properties and the values are the style values.
+ * {color: 'red', position: 'absoulute', ....}
+ */
+function applyStyles(elementIds, styles) {
+  // Iterate over each element ID
+  elementIds.forEach(function (id) {
+    // Get the element by its ID
+    var element = document.getElementById(id);
+    // If the element exists
+    if (element) {
+      // Iterate over each style property in the styles object
+      for (var styleProperty in styles) {
+        // Apply the style to the element
+        element.style[styleProperty] = styles[styleProperty];
+      }
+    }
+  });
+}
+
 //* Este metodo se asegura que haya cargado todo el html para poder manipular el js */
 document.addEventListener("DOMContentLoaded", function () {
   //*Carousel usando bootstrap
@@ -36,57 +86,6 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
     }
   }
-
-  //* Aplicar estilo específico si es macOS
-  var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
-
-  if (isMac) {
-
-    applyStyles(["buttonSendForm", "buttonReservation", "bookNowText"], {
-      paddingTop: "13px",
-    });
-
-    //*Estilos para el boton del hero.
-    applyStyles(['reservation-now', 'reservation-now-gallery'], {paddingTop: "10px"})
-
-    applyStyles(
-      [
-        "whatsappIconAcademy",
-        "whatsappIconAcademyMobile",
-        "whatsappIconTournament",
-        "whatsappIconTournamentMobile",
-      ],
-      {
-        paddingTop: "6px",
-      }
-    );
-  }
-
-  /**
-   * Applies multiple styles to a list of elements.
-   *
-   * @param {Array} elementIds - An array of element IDs to which the styles will be applied.
-   * ['id1','id2','id3',.....]
-   * @param {Object} styles - An object where the keys are the style properties and the values are the style values.
-   * {color: 'red', position: 'absoulute', ....}
-   */
-  function applyStyles(elementIds, styles) {
-    // Iterate over each element ID
-    elementIds.forEach(function (id) {
-      // Get the element by its ID
-      var element = document.getElementById(id);
-      // If the element exists
-      if (element) {
-        // Iterate over each style property in the styles object
-        for (var styleProperty in styles) {
-          // Apply the style to the element
-          element.style[styleProperty] = styles[styleProperty];
-        }
-      }
-    });
-  }
-
-  
 });
 
 //*Navegación
