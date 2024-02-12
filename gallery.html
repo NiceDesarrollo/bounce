@@ -87,9 +87,9 @@
       <!-- Título oculto para lectores de pantalla -->
       <h1 class="sr-only">Galeria de bounce Padel</h1>
 
-      <!-- Navegación para galeria mobile-->
-      <nav class="navigation py-3 d-md-none">
-        <a href="index.php" class="navbar-logo">
+      <!-- Navegación-->
+      <nav class="navigation py-3">
+        <a href="index.php#hero" class="navbar-logo flex-start">
           <img
             src="./assets/Bounce_Blanco.png"
             alt="Logo pounce padel"
@@ -99,18 +99,17 @@
         <div class="navbar-hamburger" onclick="toggleMenu()">
           <span style="color: white" id="hamburger-icon">&#9776;</span>
         </div>
-        <div class="navbar-right text-center">
+        <div class="navbar-right text-center flex-end">
+          <!-- Playtomic mobile -->
           <a
-            class="d-flex justify-content-center align-items-center"
-            href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share"
+            class="book-here-nav-mobile-link"
+            href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~"
             target="_blank"
-            style="text-decoration: none; font-size: 13px"
           >
-            <p id="bookNowText" class="mb-0" style="padding-right: 10px">
-              Reservar ahora
-            </p>
+            Reserva aqui
             <svg
-              class="logo-playtomic"
+              style="margin-left: 5px"
+              class="logo-playtomic pl-2"
               id="Layer_1"
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -130,6 +129,7 @@
               ></path>
             </svg>
           </a>
+
           <!-- Enlace a carousel de instalaciones (Mobile) -->
           <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
 
@@ -142,38 +142,10 @@
           <a href="#shop">Tienda</a>
           <a href="#contact">Contáctanos</a>
           <a href="#ubication">Ubicación</a>
-          <a href="gallery.html">Galería</a>
-        </div>
-      </nav>
 
-      <!-- Navegación para galeria desktop-->
-      <nav class="navigation py-3">
-        <a href="index.php" class="navbar-logo flex-start">
-          <img
-            src="./assets/Bounce_Blanco.png"
-            alt="Logo pounce padel"
-            loading="lazy"
-          />
-        </a>
-        <div class="navbar-hamburger" onclick="toggleMenu()">
-          <span style="color: white" id="hamburger-icon">☰</span>
-        </div>
-        <div class="navbar-right text-center flex-end">
-          <!-- Enlace a carousel de instalaciones (Mobile) -->
-          <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
-
-          <!-- Enlace a carousel de instalaciones (PC) -->
-          <a href="#installationsPC" class="d-none d-lg-inline"
-            >Instalaciones</a
-          >
-
-          <a href="#services">Servicios</a>
-          <a href="#shop">Tienda</a>
-          <a href="#contact">Contáctanos</a>
-          <a href="#ubication">Ubicación</a>
-          <a href="gallery.html">Galería</a>
-
+          <!-- Playtomic desktop -->
           <a
+            class="book-here-nav-desktop-link"
             href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~"
             target="_blank"
           >

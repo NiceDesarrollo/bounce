@@ -568,6 +568,10 @@ p {
   display: none !important;
 }
 
+.book-here-nav-desktop-link {
+  display: none !important;
+}
+
 @keyframes bounce {
   0%,
   20%,
@@ -643,6 +647,13 @@ p {
 
 /** Mostrar en pantallas medianas y más grandes */
 @media (min-width: 990px) {
+  .book-here-nav-desktop-link {
+    display: contents !important;
+  }
+
+  .book-here-nav-mobile-link {
+    display: none !important;
+  }
   .text-desktop {
     display: block !important;
   }
@@ -776,6 +787,10 @@ p {
 
 /**Estilos para dispositivos moviles*/
 @media only screen and (max-width: 375px) {
+  .book-here-nav-mobile-link {
+    display: contents !important;
+  }
+
   /**Quienes somos*/
   .who-we-are-section {
     position: relative;
