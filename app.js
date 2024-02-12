@@ -2,6 +2,12 @@
 var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
 
 if (isMac) {
+
+  //*Boton de reservar aqui 
+  applyStyles(["reserve-here-hero-button"], {
+    paddingTop: "20px",
+  });
+
   applyStyles(["buttonSendForm", "buttonReservation", "bookNowText"], {
     paddingTop: "13px",
   });
@@ -127,5 +133,3 @@ function enableBtn() {
   // Habilita el botón
   buttonSendForm.disabled = false;
 }
-
-

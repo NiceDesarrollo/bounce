@@ -132,11 +132,11 @@ p {
 
 .center-icon img {
   cursor: pointer;
-  max-width: 100px; 
+  max-width: 100px;
   max-height: 100px;
 }
 
-.book-now-hero{
+.book-now-hero {
   position: relative;
   display: flex;
   justify-content: center;
@@ -150,7 +150,7 @@ p {
     url("./assets/images/quienesSomos.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 90vh;
+  height: 105vh;
 }
 
 /**Instalaciones*/
@@ -234,7 +234,7 @@ p {
     url("./assets/images/academia.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 88vh;
+  height: 90vh;
 }
 
 /**Torneo*/
@@ -243,7 +243,7 @@ p {
     url("./assets/images/torneo.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 80vh;
+  height: 90vh;
 }
 
 /**Contacto*/
@@ -641,7 +641,7 @@ p {
   }
 }
 
-/* Mostrar en pantallas medianas y más grandes */
+/** Mostrar en pantallas medianas y más grandes */
 @media (min-width: 990px) {
   .text-desktop {
     display: block !important;

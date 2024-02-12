@@ -308,7 +308,7 @@ session_start();
 
       <!-- Boton de reserva aqui-->
       <a class="button-book-now shadow" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
-        <button type="submit" class="btn btn-primary btn-sm button-form px-5 fs-5" id="buttonBookNow">
+        <button type="submit" class="btn btn-primary btn-sm button-form px-5 fs-5" id="reserve-here-hero-button">
           ¡RESERVA AQUI!
         </button>
       </a>
