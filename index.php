@@ -980,7 +980,9 @@ session_start();
 
           <!-- footer logo -->
           <div class="col-lg-3 my-3 text-center">
-            <img style="max-height: 100px;" class="img-fluid img-lg" src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" />
+            <a href="#hero">
+              <img style="max-height: 100px;" class="img-fluid img-lg" src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" />
+            </a>
           </div>
 
 
