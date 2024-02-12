@@ -208,8 +208,8 @@ session_start();
     <div class="bg-image hero-image-background d-md-none">
       <!-- Navegación-->
       <nav class="navigation py-3">
-        <a href="#hero" class="navbar-logo">
-          <img src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" loading="lazy" />
+        <a href="#hero" class="navbar-logo" aria-label="logo de Bounce Padel - Renta de Canchas de Pádel">
+          <img src="./assets/Bounce_Blanco.png" alt="logo de Bounce Padel - Renta de Canchas de Pádel" loading="lazy" />
         </a>
         <div class="navbar-hamburger" onclick="toggleMenu()" id="navbar-hamburger">
           <span style="color: white" id="hamburger-icon">&#9776;</span>
@@ -219,7 +219,9 @@ session_start();
           <a class="d-flex justify-content-center align-items-center" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
               text-decoration: none;
               font-size: 13px;
-            ">
+            "
+            aria-label="Reservar una cancha de padel en bounce padel"
+            >
             <p id="bookNowText" class="mb-0" style="padding-right: 10px">
               Reservar ahora
             </p>
@@ -230,16 +232,16 @@ session_start();
             </svg>
           </a>
           <!-- Enlace a carousel de instalaciones (Mobile) -->
-          <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
+          <a href="#carouselSectionMobile" class="d-lg-none" aria-label="Instalaciones">Instalaciones</a>
 
           <!-- Enlace a carousel de instalaciones (PC) -->
-          <a href="#installationsPC" class="d-none d-lg-inline">Instalaciones</a>
+          <a href="#installationsPC" class="d-none d-lg-inline" aria-label="Instalaciones">Instalaciones</a>
 
-          <a href="#services">Servicios</a>
-          <a href="#shop">Tienda</a>
-          <a href="#contact">Contáctanos</a>
-          <a href="#ubication">Ubicación</a>
-          <a href="gallery.html">Galería</a>
+          <a href="#services" aria-label="Servicios">Servicios</a>
+          <a href="#shop" aria-label="Tienda">Tienda</a>
+          <a href="#contact" aria-label="Contáctanos">Contáctanos</a>
+          <a href="#ubication" aria-label="Ubicación">Ubicación</a>
+          <a href="gallery.html" aria-label="Galería">Galería</a>
         </div>
       </nav>
 
@@ -249,7 +251,7 @@ session_start();
       </div>
 
       <!-- Modal -->
-      <div style="margin-top: 60px" class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div style="margin-top: 60px" class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true" aria-modal="true">
         <!-- Contenido del modal -->
         <div class="modal-dialog modal-lg pt-4" role="document">
           <div class="modal-content text-light" style="background-color: #0f1f0fe9">
@@ -271,8 +273,8 @@ session_start();
     <div class="hero-desktop-loading hero-image-background-desktop d-none d-md-block">
       <!-- Navegación-->
       <nav class="navigation py-3">
-        <a href="#hero" class="navbar-logo flex-start">
-          <img src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" loading="lazy" />
+        <a href="#hero" class="navbar-logo flex-start" aria-label="logo de Bounce Padel - Renta de Canchas de Pádel" >
+          <img src="./assets/Bounce_Blanco.png" alt="logo de Bounce Padel - Renta de Canchas de Pádel" loading="lazy" />
         </a>
         <div class="navbar-hamburger" onclick="toggleMenu()">
           <span style="color: white" id="hamburger-icon">&#9776;</span>
@@ -281,18 +283,18 @@ session_start();
 
 
           <!-- Enlace a carousel de instalaciones (Mobile) -->
-          <a href="#carouselSectionMobile" class="d-lg-none">Instalaciones</a>
+          <a href="#carouselSectionMobile" class="d-lg-none" aria-label="Instalaciones">Instalaciones</a>
 
           <!-- Enlace a carousel de instalaciones (PC) -->
-          <a href="#installationsPC" class="d-none d-lg-inline">Instalaciones</a>
+          <a href="#installationsPC" class="d-none d-lg-inline" aria-label="Instalaciones">Instalaciones</a>
 
-          <a href="#services">Servicios</a>
-          <a href="#shop">Tienda</a>
-          <a href="#contact">Contáctanos</a>
-          <a href="#ubication">Ubicación</a>
-          <a href="gallery.html">Galería</a>
+          <a href="#services" aria-label="Servicios">Servicios</a>
+          <a href="#shop" aria-label="Tienda">Tienda</a>
+          <a href="#contact" aria-label="Contáctanos">Contáctanos</a>
+          <a href="#ubication" aria-label="Ubicación">Ubicación</a>
+          <a href="gallery.html" aria-label="Galería">Galería</a>
 
-          <a href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
+          <a aria-label="Reservar una cancha de padel en bounce padel" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank" >
             Reserva aqui
             <svg style="margin-left: 5px;" class="logo-playtomic pl-2" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
               <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
@@ -307,7 +309,7 @@ session_start();
       </nav>
 
       <!-- Boton de reserva aqui-->
-      <a class="button-book-now shadow" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
+      <a aria-label="Reservar una cancha de padel en bounce padel" class="button-book-now shadow" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
         <button type="submit" class="btn btn-primary btn-sm button-form px-5 fs-5" id="reserve-here-hero-button">
           ¡RESERVA AQUI!
         </button>
@@ -599,12 +601,12 @@ session_start();
             <p>12:00 - 16:00: Tarifa $600</p>
             <p>16:00 - 18:00: Tarifa $800</p>
             <p>18:00 - 22:30: Tarifa $1,000</p>
-            <p class="mb-5 mt-5 text-service-desktop">
+            <p class="mb-5 mt-5 text-service-desktop px-5">
               En Bounce Padel siempre encontrarás la mejor tarifa para
               disfrutar del pádel con amigos.
             </p>
 
-            <a href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
+            <a aria-label="Reservar una cancha de padel en bounce padel" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
               <button type="submit" class="btn btn-primary btn-sm button-form px-2" id="buttonReservation">
                 ¡RESERVAR AQUI!
               </button>
@@ -641,7 +643,7 @@ session_start();
               </p>
               <br />
 
-              <a href="#services">
+              <a aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                   CONTÁCTANOS
                   <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white; padding-left: 10px" id="whatsappIconTournamentMobile"></i>
@@ -666,7 +668,7 @@ session_start();
 
               <br />
 
-              <a href="#services">
+              <a  aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                   CONTÁCTANOS
                   <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white; padding-left: 10px" id="whatsappIconTournament"></i>
@@ -702,7 +704,7 @@ session_start();
 
               <br />
 
-              <a href="#services">
+              <a  aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                   CONSULTAR
                   <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white; padding-left: 10px" id="whatsappIconAcademyMobile"></i>
@@ -723,7 +725,7 @@ session_start();
               </p>
               <br />
 
-              <a href="#services">
+              <a  aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                   CONSULTAR
                   <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white; padding-left: 10px" id="whatsappIconAcademy"></i>
@@ -871,7 +873,7 @@ session_start();
                 <div class="col">
                   <div class="form-group">
                     <label for="phoneInput">Celular</label>
-                    <input style="padding-top: 15px" required type="text" class="form-control black-input" id="phoneInput" name="phone" oninvalid="this.setCustomValidity('Introduce tu numero celular')" oninput="setCustomValidity('')" autocomplete="phone" />
+                    <input style="padding-top: 15px" required type="text" class="form-control black-input" id="phoneInput" name="phone" oninvalid="this.setCustomValidity('Introduce tu numero celular')" oninput="setCustomValidity('')" autocomplete="tel" />
                   </div>
                 </div>
               </div>
@@ -879,11 +881,12 @@ session_start();
               <!-- Input Mensaje -->
               <div class="form-group mt-3">
                 <label for="messageInput">Mensaje</label>
-                <textarea style="padding-top: 15px" class="form-control black-input" id="messageInput" rows="2" name="message"></textarea>
+                <textarea autocomplete="on" style="padding-top: 15px" class="form-control black-input" id="messageInput" rows="2" name="message"></textarea>
               </div>
 
               <!-- Recaptcha -->
-              <div class="g-recaptcha mt-4" data-sitekey="6LeqmFspAAAAAHrADuvHzFH8uR3P_jpffd-GKx_R" data-theme="dark" data-callback="enableBtn"></div>
+              <div class="g-recaptcha mt-4" data-sitekey="6LeqmFspAAAAAHrADuvHzFH8uR3P_jpffd-GKx_R" data-theme="dark" data-callback="enableBtn">
+              </div>
 
               <!-- Boton de enviar -->
               <div class="mt-2 d-flex justify-content-end">
@@ -939,13 +942,13 @@ session_start();
               </div>
               <!-- columna de redes sociales -->
               <div class="col-2 d-flex flex-column align-items-center">
-                <a href="#" class="custom-link mt-5">
+                <a  aria-label="Instragam link" href="#" class="custom-link mt-5">
                   <i class="fa-brands fa-instagram fa-2xl"></i>
                 </a>
-                <a href="#" class="custom-link mt-5">
+                <a aria-label="Facebook link" href="#" class="custom-link mt-5">
                   <i class="fa-brands fa-facebook fa-2xl"></i>
                 </a>
-                <a href="#" class="custom-link mt-5">
+                <a aria-label="Youtube link" href="#" class="custom-link mt-5">
                   <i class="fa-brands fa-youtube fa-2xl"></i>
                 </a>
               </div>
@@ -958,7 +961,7 @@ session_start();
     </section>
 
     <!-- WhatsApp float button -->
-    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola." class="float-whatsapp-button" target="_blank">
+    <a aria-label="Enviar mensaje por whatsapp a bounce padel" href="https://api.whatsapp.com/send?phone=51955081075&text=Hola." class="float-whatsapp-button" target="_blank">
       <i class="fa fa-whatsapp whatsapp-float-icon"></i>
     </a>
 
@@ -969,7 +972,7 @@ session_start();
 
           <!--Reservar ahora mobile-->
           <div class="mt-4 footer-reservation-link d-md-block d-lg-none">
-            <a class="d-flex justify-content-center align-items-center " href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
+            <a aria-label="Reservar una cancha de padel en bounce padel" class="d-flex justify-content-center align-items-center " href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
               text-decoration: none;
               font-size: 13px;
               width: 200px;
@@ -988,7 +991,7 @@ session_start();
 
           <!-- footer logo -->
           <div class="col-lg-3 my-3 text-center">
-            <a href="#hero">
+            <a aria-label="logo de Bounce Padel - Renta de Canchas de Pádel" href="#hero">
               <img style="max-height: 100px;" class="img-fluid img-lg" src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" />
             </a>
           </div>
@@ -997,19 +1000,19 @@ session_start();
           <!-- Menu footer -->
           <div class="col-lg-6  text-white d-flex flex-wrap navbar-footer align-items-center">
             <!-- Enlace a carousel de instalaciones (Mobile) -->
-            <a href="#carouselSectionMobile" class="flex-grow-1  align-items-center d-md-flex d-lg-none justify-content-center">Instalaciones</a>
+            <a aria-label="Instalaciones" href="#carouselSectionMobile" class="flex-grow-1  align-items-center d-md-flex d-lg-none justify-content-center">Instalaciones</a>
 
             <!-- Enlace a carousel de instalaciones (PC) -->
-            <a href="#installationsPC" class="flex-grow-1  align-items-center d-none d-lg-flex justify-content-center">Instalaciones</a>
+            <a aria-label="Instalaciones" href="#installationsPC" class="flex-grow-1  align-items-center d-none d-lg-flex justify-content-center">Instalaciones</a>
 
-            <a href="#services" class="flex-grow-1 d-flex align-items-center justify-content-center">Servicios</a>
-            <a href="#shop" class="flex-grow-1 d-flex align-items-center justify-content-center">Tienda</a>
-            <a href="#contact" class="flex-grow-1 d-flex align-items-center justify-content-center">Contáctanos</a>
-            <a href="#ubication" class="flex-grow-1 d-flex align-items-center justify-content-center">Ubicación</a>
-            <a href="gallery.html" class="flex-grow-1 d-flex align-items-center justify-content-center">Galería</a>
+            <a aria-label="Servicios" href="#services" class="flex-grow-1 d-flex align-items-center justify-content-center">Servicios</a>
+            <a aria-label="Tienda" href="#shop" class="flex-grow-1 d-flex align-items-center justify-content-center">Tienda</a>
+            <a aria-label="Contáctanos" href="#contact" class="flex-grow-1 d-flex align-items-center justify-content-center">Contáctanos</a>
+            <a aria-label="Ubicación" href="#ubication" class="flex-grow-1 d-flex align-items-center justify-content-center">Ubicación</a>
+            <a aria-label="Galería" href="gallery.html" class="flex-grow-1 d-flex align-items-center justify-content-center">Galería</a>
 
             <!-- Reservar ahora -->
-            <a class="flex-grow-1 d-flex align-items-center justify-content-center d-none d-lg-flex" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
+            <a aria-label="Reservar una cancha de padel en bounce padel" class="flex-grow-1 d-flex align-items-center justify-content-center d-none d-lg-flex" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
               Reserva aquí
               <svg style="margin-left: 5px;" class="logo-playtomic pl-2" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502">
                 <circle class="cls-1" cx="251" cy="251" r="250" fill="#ecff00"></circle>
@@ -1022,13 +1025,13 @@ session_start();
 
           <!-- Redes sociales Iconos -->
           <div class="col-lg-3 text-center my-5">
-            <a href="#" class="custom-link icon-footer">
+            <a aria-label="Instragam link" href="#" class="custom-link icon-footer">
               <i class="fa-brands fa-instagram fa-2xl"></i>
             </a>
-            <a href="#" class="custom-link icon-footer">
+            <a aria-label="Facebook link" href="#" class="custom-link icon-footer">
               <i class="fa-brands fa-facebook fa-2xl"></i>
             </a>
-            <a href="#" class="custom-link">
+            <a aria-label="Youtube link" href="#" class="custom-link">
               <i class="fa-brands fa-youtube fa-2xl"></i>
             </a>
           </div>
