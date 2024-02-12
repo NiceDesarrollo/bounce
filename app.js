@@ -12,8 +12,7 @@ if (isMac) {
     paddingTop: "13px",
   });
 
-  //*Estilos para el boton del hero.
-  applyStyles(["reservation-now", "reservation-now-gallery"], {
+  applyStyles(["reservation-now", "reservation-now-gallery", "navbar-hamburger"], {
     paddingTop: "10px",
   });
 

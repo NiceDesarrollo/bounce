@@ -211,7 +211,7 @@ session_start();
         <a href="#hero" class="navbar-logo">
           <img src="./assets/Bounce_Blanco.png" alt="Logo pounce padel" loading="lazy" />
         </a>
-        <div class="navbar-hamburger" onclick="toggleMenu()">
+        <div class="navbar-hamburger" onclick="toggleMenu()" id="navbar-hamburger">
           <span style="color: white" id="hamburger-icon">&#9776;</span>
         </div>
         <div class="navbar-right text-center">

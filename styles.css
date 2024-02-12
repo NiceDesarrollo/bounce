@@ -206,7 +206,7 @@ p {
     url("./assets/images/raquetaConPelotaJuntoALineaConTeni.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 100vh;
+  height: 110vh;
 }
 
 .book-here-link {
@@ -816,7 +816,7 @@ p {
 
   /**Servicios*/
   .services-image-background {
-    height: 115vh;
+    height: 125vh;
   }
 
   /**Tienda*/
