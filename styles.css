@@ -568,10 +568,6 @@ p {
   display: none !important;
 }
 
-.book-here-nav-desktop-link {
-  display: none !important;
-}
-
 @keyframes bounce {
   0%,
   20%,
@@ -664,10 +660,6 @@ p {
 
 /**media query para el navbar de galeria*/
 @media (min-width: 767px) {
-  .book-here-nav-desktop-link {
-    display: contents !important;
-  }
-
   .book-here-nav-mobile-link {
     display: none !important;
   }
@@ -675,6 +667,11 @@ p {
 
 /**Estilos para dispositivos moviles*/
 @media only screen and (max-width: 767px) {
+
+  /**Ocultar el link en dispositivos menores al media query*/
+  .book-here-nav-desktop-link {
+    display: none !important;
+  }
   /** Navegacion */
   .navigation {
     padding: 10px;
