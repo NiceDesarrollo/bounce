@@ -323,6 +323,7 @@ session_start();
 
   <!-- Contenido principal -->
   <main>
+
     <!-- Quienes somos -->
     <section>
       <div id="whoWeAre" class="bg-image who-we-are-image-background">
@@ -369,8 +370,9 @@ session_start();
     <!-- Instalaciones (pc) -->
     <section>
       <div id="installationsPC" class="bg-image installations-image-background d-none d-md-block">
-        <div class="row h-100">
-          <div class="col-md-5 p-3" style="max-height: 100%">
+        <div class="row h-100 pt-5">
+
+          <div class="col-md-5 p-5" style="max-height: 100%">
             <!-- Imagen que cambiará e imagen en la que empieza el carousel -->
             <img id="changingImage" src="./assets/images/cafeteria.webp" alt="Imagen 1" class="img-fluid changingImage rounded shadow" />
           </div>
@@ -484,7 +486,7 @@ session_start();
         <div class="carousel-inner">
           <!-- Cafetería-->
           <div class="mobile carousel-item active">
-            <img src="./assets/images/cafeteria.webp" class="d-block w-100 h-100" alt="Cafetería" />
+            <img style="object-fit: cover;" src="./assets/images/cafeteria.webp" class="d-block w-100 h-100" alt="Cafetería" />
             <div class="carousel-caption d-flex h-100 align-items-center justify-content-center pt-5">
               <div class="mt-5">
                 <h5 class="mb-4 mt-5">Cafetería</h5>
@@ -504,7 +506,7 @@ session_start();
 
           <!-- Canchas -->
           <div class="mobile carousel-item">
-            <img src="./assets/images/canchas.webp" class="d-block w-100 h-100" alt="Cafetería" />
+            <img style="object-fit: cover;" src="./assets/images/canchas.webp" class="d-block w-100 h-100" alt="Cafetería" />
             <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
               <div class="text-card-container">
                 <h5 class="mb-4 mt-5">Canchas</h5>
@@ -555,7 +557,7 @@ session_start();
 
           <!-- Estacionamiento -->
           <div class="mobile carousel-item">
-            <img src="./assets/images/estacionamiento.webp" class="d-block w-100 h-100" alt="Cafetería" />
+            <img style="object-fit: cover;" src="./assets/images/estacionamiento.webp" class="d-block w-100 h-100" alt="Cafetería" />
             <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
               <div>
                 <h5 class="mb-4 mt-5">Estacionamiento</h5>
@@ -568,6 +570,7 @@ session_start();
               </div>
             </div>
           </div>
+          
         </div>
 
         <!-- Botones del carousel -->
@@ -586,6 +589,7 @@ session_start();
     <section>
       <div id="services" class="bg-image services-image-background">
         <div class="row">
+          <div class="mt-5"></div>
           <div class="col-md-6 text-center text-white mt-5 text-content-info">
             <h2 class="mt-5">Servicios</h2>
             <h3 class="mt-5">Renta de canchas</h3>
@@ -617,7 +621,7 @@ session_start();
 
     <!-- Torneo -->
     <section>
-      <div id="shop" class="bg-image tournament-image-background">
+      <div id="tournament" class="bg-image tournament-image-background">
         <div class="row">
           <div class="col-md-6 text-center text-white pr-3"></div>
           <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
@@ -679,7 +683,7 @@ session_start();
 
     <!-- Academia -->
     <section>
-      <div id="whoWeAre" class="bg-image academy-image-background">
+      <div id="academy" class="bg-image academy-image-background">
         <div class="row">
           <div class="col-md-6 text-center text-white mt-5 text-content-info">
             <h2 class="mt-5">Academia</h2>
@@ -740,6 +744,7 @@ session_start();
     <section>
       <div id="shop" class="bg-image shop-image-background">
         <div class="row">
+          <div class="mt-5"></div>
           <div class="col-md-6 text-center text-white pr-3"></div>
           <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
             <h2 class="mt-5 mt-md-5">Tienda</h2>
@@ -901,6 +906,9 @@ session_start();
     <section>
       <div id="ubication" class="bg-image ubication-image-background">
         <div class="row">
+
+        <div class="mt-5"></div>
+
           <div class="col-lg-6"></div>
 
           <div class="col-lg-6 text-white mt-5 text-center">
