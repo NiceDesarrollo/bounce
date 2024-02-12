@@ -699,7 +699,7 @@ p {
 
   /**Hero section*/
   .hero-image-background {
-    height: 80vh;
+    height: 85vh;
   }
 
   /**Quienes somos*/
@@ -727,7 +727,7 @@ p {
 
   /**Servicios*/
   .services-image-background {
-    height: 100vh;
+    height: 105vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -735,7 +735,7 @@ p {
 
   /**Tienda*/
   .shop-image-background {
-    height: 80vh;
+    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -743,7 +743,7 @@ p {
 
   /**Academia*/
   .academy-image-background {
-    height: 80vh;
+    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -751,7 +751,7 @@ p {
 
   /**Torneo*/
   .tournament-image-background {
-    height: 80vh;
+    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -759,7 +759,7 @@ p {
 
   /**Contacto*/
   .contact-image-background {
-    height: 80vh;
+    height: 90vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -767,7 +767,7 @@ p {
 
   /**Ubicacion*/
   .ubication-image-background {
-    height: 80vh;
+    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
