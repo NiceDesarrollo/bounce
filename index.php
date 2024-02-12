@@ -964,6 +964,8 @@ session_start();
             <a class="d-flex justify-content-center align-items-center " href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?utm_source=app_ios&utm_medium=share" target="_blank" style="
               text-decoration: none;
               font-size: 13px;
+              width: 200px;
+              margin: auto;
             ">
               <p id="reservation-now" style="margin-right: 10px; margin-left: 23px;" class="mb-0">
                 Reservar ahora

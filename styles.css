@@ -647,13 +647,6 @@ p {
 
 /** Mostrar en pantallas medianas y más grandes */
 @media (min-width: 990px) {
-  .book-here-nav-desktop-link {
-    display: contents !important;
-  }
-
-  .book-here-nav-mobile-link {
-    display: none !important;
-  }
   .text-desktop {
     display: block !important;
   }
@@ -666,6 +659,17 @@ p {
 
   .navbar-right a {
     padding: 40px;
+  }
+}
+
+/**media query para el navbar de galeria*/
+@media (min-width: 767px) {
+  .book-here-nav-desktop-link {
+    display: contents !important;
+  }
+
+  .book-here-nav-mobile-link {
+    display: none !important;
   }
 }
 
