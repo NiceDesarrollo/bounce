@@ -939,8 +939,9 @@ session_start();
                 <h6>Correo:</h6>
                 <p>info@padel.com.mx</p>
               </div>
+
               <!-- columna de redes sociales -->
-              <div class="col-2 d-flex flex-column align-items-center">
+              <div class="col-2 d-flex flex-column align-items-center" style="padding-right: 20px;">
                 <a  aria-label="Instragam link" href="#" class="custom-link mt-5">
                   <i class="fa-brands fa-instagram fa-2xl"></i>
                 </a>
