@@ -150,7 +150,6 @@ p {
     url("./assets/images/quienesSomos.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 105vh;
 }
 
 /**Instalaciones*/
@@ -206,7 +205,6 @@ p {
     url("./assets/images/raquetaConPelotaJuntoALineaConTeni.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 110vh;
 }
 
 .book-here-link {
@@ -225,7 +223,6 @@ p {
     url("./assets/images/raquetaApuntandoPelotaAlPiso.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 70vh;
 }
 
 /**Academia*/
@@ -234,7 +231,6 @@ p {
     url("./assets/images/academia.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 90vh;
 }
 
 /**Torneo*/
@@ -243,7 +239,6 @@ p {
     url("./assets/images/torneo.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 90vh;
 }
 
 /**Contacto*/
@@ -252,7 +247,6 @@ p {
     url("./assets/images/esperandoPelota.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 95vh;
 }
 /**Formulario de contacto*/
 /**Input de color negro con border verde*/
@@ -277,7 +271,6 @@ p {
     url("./assets/images/pelotaEnRed.webp");
   background-size: cover; /** Ajusta el tamaño de la imagen */
   background-position: center; /** Centra la imagen */
-  height: 85vh;
 }
 
 /**Estilos de los iconos de redes sociales*/
@@ -709,7 +702,6 @@ p {
   }
   .who-we-are-image-background {
     width: 100%;
-    height: 100vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -727,7 +719,6 @@ p {
 
   /**Servicios*/
   .services-image-background {
-    height: 105vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -735,7 +726,6 @@ p {
 
   /**Tienda*/
   .shop-image-background {
-    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -743,7 +733,6 @@ p {
 
   /**Academia*/
   .academy-image-background {
-    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -751,7 +740,6 @@ p {
 
   /**Torneo*/
   .tournament-image-background {
-    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -759,7 +747,6 @@ p {
 
   /**Contacto*/
   .contact-image-background {
-    height: 90vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -767,7 +754,6 @@ p {
 
   /**Ubicacion*/
   .ubication-image-background {
-    height: 85vh;
     /**Establecer el color sobre la imagen de manera comopleta para no perder el texto*/
     background-color: #0f1f0fa0;
     background-blend-mode: multiply;
@@ -799,7 +785,6 @@ p {
   }
   .who-we-are-image-background {
     width: 100%;
-    height: 130vh;
   }
   .overlay-text {
     max-width: 100%;
@@ -809,35 +794,5 @@ p {
 
   .mobile {
     height: 80vh !important;
-  }
-
-  /**Servicios*/
-  .services-image-background {
-    height: 125vh;
-  }
-
-  /**Tienda*/
-  .shop-image-background {
-    height: 80vh;
-  }
-
-  /**Academia*/
-  .academy-image-background {
-    height: 120vh;
-  }
-
-  /**Torneo*/
-  .tournament-image-background {
-    height: 115vh;
-  }
-
-  /**Contacto*/
-  .contact-image-background {
-    height: 100vh;
-  }
-
-  /**Ubicacion*/
-  .ubication-image-background {
-    height: 100vh;
   }
 }

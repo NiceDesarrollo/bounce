@@ -330,12 +330,12 @@ session_start();
     <section>
       <div id="whoWeAre" class="bg-image who-we-are-image-background">
         <div class="row">
-          <div class="col-md-6 text-center text-white mt-md-5 mt-5">
-            <h2 class="mt-5 mt-md-5">¿Quiénes somos?</h2>
-            <img class="mt-3" width="300" src="./assets/Bounce_Blanco.png" alt="Logo Bounce" loading="lazy" />
+          <div class="col-md-6 text-center text-white mt-5">
+            <h2 class="my-5">¿Quiénes somos?</h2>
+            <img  width="300" src="./assets/Bounce_Blanco.png" alt="Logo Bounce" loading="lazy" />
 
             <!-- Mobile text -->
-            <p class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
+            <p class="my-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
               ¡Somos unos apasionados por el deporte!
               <br />
               Nuestro objetivo es forjar una comunidad con todos aquellos que
@@ -350,7 +350,7 @@ session_start();
             </p>
 
             <!-- pc text -->
-            <p class="mt-5 justify-text text-desktop text-content-info" style="padding-right: 55px; padding-left: 55px">
+            <p class="my-5 justify-text text-desktop text-content-info" style="padding-right: 55px; padding-left: 55px">
               ¡Somos unos apasionados por el deporte! Nuestro objetivo es
               forjar una comunidad con todos aquellos que comparten nuestra
               pasión. Aspiramos a construir un espacio exclusivo para todas
@@ -362,7 +362,7 @@ session_start();
             </p>
 
             <!-- Imagen de la pelota amarilla -->
-            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
+            <img class="my-5" height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
           </div>
           <div class="col-md-6 text-center text-white pr-3"></div>
         </div>
@@ -595,18 +595,18 @@ session_start();
           <div class="col-md-6 text-center text-white mt-5 text-content-info">
             <h2 class="mt-5">Servicios</h2>
             <h3 class="mt-5">Renta de canchas</h3>
-            <p class="mt-5 mb-4">Precios:</p>
+            <p class="my-5">Precios:</p>
             <p>06:00 - 09:00: Tarifa $1,000</p>
             <p>09:00 - 12:00: Tarifa $800</p>
             <p>12:00 - 16:00: Tarifa $600</p>
             <p>16:00 - 18:00: Tarifa $800</p>
             <p>18:00 - 22:30: Tarifa $1,000</p>
-            <p class="mb-5 mt-5 text-service-desktop px-5">
+            <p class="my-5 text-service-desktop px-5">
               En Bounce Padel siempre encontrarás la mejor tarifa para
               disfrutar del pádel con amigos.
             </p>
 
-            <a aria-label="Reservar una cancha de padel en bounce padel" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
+            <a  aria-label="Reservar una cancha de padel en bounce padel" href="https://playtomic.io/tenant/22ad955a-6248-4f43-aec0-fd46a63e969a?q=PADEL~2024-02-08~~~" target="_blank">
               <button type="submit" class="btn btn-primary btn-sm button-form px-2" id="buttonReservation">
                 ¡RESERVAR AQUI!
               </button>
@@ -614,7 +614,7 @@ session_start();
 
             <br />
 
-            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-4" style="cursor: pointer" />
+            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="my-5" style="cursor: pointer" />
           </div>
           <div class="col-md-6 text-center text-white pr-3"></div>
         </div>
@@ -625,9 +625,12 @@ session_start();
     <section>
       <div id="tournament" class="bg-image tournament-image-background">
         <div class="row">
+        <div class="mt-5"></div>
+
           <div class="col-md-6 text-center text-white pr-3"></div>
           <div class="col-md-6 text-center text-white mt-md-5 mt-5 text-content-info">
-            <h2 class="mt-5 mt-md-5">Torneo</h2>
+      
+            <h2 class="mt-5">Torneo</h2>
 
             <!-- Mobile text -->
             <div class="mt-5 d-lg-none" style="padding-right: 55px; padding-left: 55px">
@@ -635,13 +638,12 @@ session_start();
                 ¡Organiza tu propio torneo de pádel con nosotros y lleva la
                 competencia al siguiente nivel!
               </h5>
-              <p>
+              <p class="my-5">
                 Ya sea que estés buscando una experiencia emocionante con
                 amigos, compañeros de trabajo o competidores profesionales,
                 nuestro centro ofrece las instalaciones perfectas para
                 celebrar torneos de todos los niveles.
               </p>
-              <br />
 
               <a aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
@@ -651,33 +653,31 @@ session_start();
               </a>
             </div>
 
-            <br />
-
             <!-- pc text -->
             <div class="mt-5 justify-text text-desktop text-center" style="padding-right: 55px; padding-left: 55px">
               <h5>
                 ¡Organiza tu propio torneo de pádel con nosotros y lleva la
                 competencia al siguiente nivel!
               </h5>
-              <p>
+              <p class="my-5">
                 Ya sea que estés buscando una experiencia emocionante con
                 amigos, compañeros de trabajo o competidores profesionales,
                 nuestro centro ofrece las instalaciones perfectas para
                 celebrar torneos de todos los niveles.
               </p>
 
-              <br />
-
               <a  aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                   CONTÁCTANOS
-                  <i class="fa-brands fa-whatsapp fa-2xl my-2" style="color: white; padding-left: 10px" id="whatsappIconTournament"></i>
+                  <i class="fa-brands fa-whatsapp fa-2xl" style="color: white; padding-left: 10px" id="whatsappIconTournament"></i>
                 </button>
               </a>
             </div>
 
             <br />
-            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
+
+            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="my-5" style="cursor: pointer" />
+          
           </div>
         </div>
       </div>
@@ -687,13 +687,14 @@ session_start();
     <section>
       <div id="academy" class="bg-image academy-image-background">
         <div class="row">
+          <div class="mt-5"></div>
           <div class="col-md-6 text-center text-white mt-5 text-content-info">
             <h2 class="mt-5">Academia</h2>
 
             <!-- Mobile text -->
             <div class="mt-5 d-lg-none text-center" style="padding-right: 55px; padding-left: 55px">
               <h5>¡Descubre el mundo del pádel en nuestra academia!</h5>
-              <p>
+              <p  class="my-5">
                 Ya seas un principiante que busca dominar las técnicas básicas
                 o un jugador experimentado que quiere perfeccionar su juego,
                 nuestra academia ofrece programas diseñados para todos los
@@ -701,8 +702,6 @@ session_start();
                 guiarán paso a paso, ayudándote a mejorar tu técnica,
                 estrategia y condición física.
               </p>
-
-              <br />
 
               <a  aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
@@ -715,7 +714,7 @@ session_start();
             <!-- pc text -->
             <div class="justify-text text-desktop text-center mt-5" style="padding-right: 55px; padding-left: 55px">
               <h5>¡Descubre el mundo del pádel en nuestra academia!</h5>
-              <p>
+              <p class="my-5">
                 Ya seas un principiante que busca dominar las técnicas básicas
                 o un jugador experimentado que quiere perfeccionar su juego,
                 nuestra academia ofrece programas diseñados para todos los
@@ -723,7 +722,7 @@ session_start();
                 guiarán paso a paso, ayudándote a mejorar tu técnica,
                 estrategia y condición física.
               </p>
-              <br />
+
 
               <a  aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
@@ -735,7 +734,7 @@ session_start();
 
             <br />
             <!-- Imagen de la pelota amarilla -->
-            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
+            <img class="my-5" height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" loading="lazy" style="cursor: pointer" />
           </div>
           <div class="col-md-6 text-center text-white pr-3"></div>
         </div>
@@ -766,7 +765,7 @@ session_start();
               nosotros!
             </p>
 
-            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
+            <img class="my-5" height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)"  style="cursor: pointer" />
           </div>
         </div>
       </div>
@@ -889,7 +888,7 @@ session_start();
               </div>
 
               <!-- Boton de enviar -->
-              <div class="mt-2 d-flex justify-content-end">
+              <div class="mt-5 d-flex justify-content-center">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4" value="submit" id="buttonSendForm" disabled="disabled">
                   ENVIAR
                 </button>
@@ -897,7 +896,7 @@ session_start();
             </form>
 
             <!-- Icono de pelota -->
-            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)" class="mt-3" style="cursor: pointer" />
+            <img class="my-5" height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" onclick="handleClickBall(this)"  style="cursor: pointer" />
           </div>
 
           <div class="col-md-6"></div>
@@ -954,7 +953,7 @@ session_start();
               </div>
             </div>
 
-            <img height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis" class="mt-4" onclick="handleClickBall(this)" style="cursor: pointer" />
+            <img class="my-5" height="30" width="30" src="./assets/SVG/Asset 6.svg" alt="Icono de pelota de tenis"  onclick="handleClickBall(this)" style="cursor: pointer" />
           </div>
         </div>
       </div>
