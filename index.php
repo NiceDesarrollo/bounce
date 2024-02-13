@@ -316,7 +316,7 @@ session_start();
       </a>
 
       <video autoplay muted loop>
-        <source src="//vimeo-hp-videos.global.ssl.fastly.net/3/3.mp4" type="video/mp4" />
+        <source src="./assets/video/pexels-cottonbro-5730331 (2160p).mp4" type="video/mp4" />
         Tu navegador no soporta el elemento de video.
       </video>
     </div>
