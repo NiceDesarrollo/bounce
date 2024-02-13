@@ -669,7 +669,7 @@ session_start();
               <a  aria-label="Enviar mensaje por whatsapp a bounce padel" href="#services">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4 py-2">
                   CONTÁCTANOS
-                  <i class="fa-brands fa-whatsapp fa-2xl" style="color: white; padding-left: 10px" id="whatsappIconTournament"></i>
+                  <i class="fa-brands fa-whatsapp fa-2xl" style="color: white; padding-left: 10px" id="tournamentButton"></i>
                 </button>
               </a>
             </div>
@@ -888,7 +888,7 @@ session_start();
               </div>
 
               <!-- Boton de enviar -->
-              <div class="mt-5 d-flex justify-content-center">
+              <div class="mt-5 d-flex justify-content-end">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4" value="submit" id="buttonSendForm" disabled="disabled">
                   ENVIAR
                 </button>

@@ -8,7 +8,8 @@ if (isMac) {
     paddingTop: "20px",
   });
 
-  applyStyles(["buttonSendForm", "buttonReservation", "bookNowText"], {
+
+  applyStyles(["buttonSendForm", "buttonReservation", "bookNowText", "tournamentButton"], {
     paddingTop: "13px",
   });
 
@@ -20,7 +21,6 @@ if (isMac) {
     [
       "whatsappIconAcademy",
       "whatsappIconAcademyMobile",
-      "whatsappIconTournament",
       "whatsappIconTournamentMobile",
     ],
     {
