@@ -316,9 +316,10 @@ session_start();
       </a>
 
       <video autoplay muted loop>
-        <source src="./assets/video/pexels-cottonbro-5730331 (2160p).mp4" type="video/mp4" />
+        <source src="https://github.com/NiceDesarrollo/bounce/raw/main/pexels-cottonbro-5730331%20(2160p)%20(1).mp4" type="video/mp4" />
         Tu navegador no soporta el elemento de video.
       </video>
+      
     </div>
 
   </header>
