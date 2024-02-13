@@ -888,7 +888,7 @@ session_start();
               </div>
 
               <!-- Boton de enviar -->
-              <div class="mt-5 d-flex justify-content-end">
+              <div class="mt-5 d-flex justify-content-center justify-content-md-end">
                 <button type="submit" class="btn btn-primary btn-sm button-form px-4" value="submit" id="buttonSendForm" disabled="disabled">
                   ENVIAR
                 </button>
