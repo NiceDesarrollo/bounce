@@ -20,16 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
       //* Cambiar la fuente de la imagen en función de la diapositiva actual
       switch (slideIndex) {
         case 0:
-          imageElement.src = "./assets/images/cafeteria.webp";
+          imageElement.src = "./assets/images/gallery/11.webp";
           break;
         case 1:
-          imageElement.src = "./assets/images/canchas.webp";
+          imageElement.src = "./assets/images/gallery/5.webp";
           break;
         case 2:
-          imageElement.src = "./assets/images/vestidores.webp";
+          imageElement.src = "./assets/images/gallery/14.webp";
           break;
         case 3:
-          imageElement.src = "./assets/images/regaderas.webp";
+          imageElement.src = "./assets/images/gallery/19.webp";
           break;
         case 4:
           imageElement.src = "./assets/images/estacionamiento.webp";
