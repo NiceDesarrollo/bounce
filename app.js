@@ -87,7 +87,7 @@ function toggleMenu() {
   });
 }
 
-//*Anumación de pelota
+//*Animación de pelota
 function handleClickBall(element) {
   element.classList.add("tennis-ball");
 
